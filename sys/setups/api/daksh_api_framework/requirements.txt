@@ -1,0 +1,46 @@
+Django==3.2.10 #A high level Python Web Framework that encourages rapid development and clean, pragmatic design
+django-admin-rangefilter==0.8.2 #App that add the filter by a custom date range on the admin UI
+django-anymail==8.4 #Django email integration for  Amazon SES, Mailgun, Mailjet, Postmark, SendGrid, SendinBlue, SparkPost and other transactional email service providers (ESPs)
+django-autocomplete-light==3.8.2 #Enable autocompletes quickly and properly in a django project
+django-compressor==2.4.1 #Compresses linked and inline JavaScript or CSS into single cached files
+django-cors-headers==3.10.1 #App for handling the server headers required for Cross-Origin Resource Sharing (CORS)
+django-crispy-forms==1.13.0 #Best way to have Django DRY (Don't repeat yourself) forms
+django-debug-toolbar==3.2.2 #A configurable set of panels that display various debug information about the current request or response
+django-debug-toolbar-request-history==0.1.4 #Request History Panel for Django Debug Toolbar
+django-docs==0.3.1 #Allows to serve Sphinx generated docs directly from Django.
+django-extensions==3.1.5 #A collection of custom extensions for the Django Framework which include management commands, additional database fields, admin extensions and much more
+django-filter==21.1 #Reusable Django app for allowing users to filter querysets dynamically (Used by graphene-django for filtering on fields)
+django-grappelli==2.15.3 #A jazzy skin for the Django Admin-Interface
+django-model-utils==4.2.0 #Django model mixins and utilities.
+django-prettyjson==0.4.1 #Enables pretty JSON viewer in Django forms, admin, or templates
+django-ses==2.3.1 #A Django email backend for Amazon's Simple Email Service
+django-smart-selects==1.5.9 #Django app to handle chained model fields (for adding filter or group (chained) models in dropdown)
+django-sortedm2m==3.1.1 #Drop-in replacement for django's many to many field with sorted relations
+django-storages==1.12.3 #Support for many storage backends in Django
+django-taggit==2.0.0 #Reusable django app for simple tagging
+djangorestframework==3.12.4 #Web APIs for Django, made easy
+drf-yasg==1.20.0 #Automated generation of real Swagger or OpenAPI 2.0 schemas from Django Rest Framework code
+gevent==21.8.0 #Coroutine-based network library (Used by celery to execute tasks as green threads)
+graphene-django==2.15.0 #Graphene Django integration
+gunicorn[gthread]==20.1.0 #WSGI HTTP Server for UNIX
+ipython==7.30.1 #Productive Interactive Computing
+jupyter==1.0.0 #Metapackage which installs all the Jupyter components in one go
+jsonschema==4.2.1 #An implementation of JSON Schema validation for Python
+matplotlib==3.5.0 #Python plotting package
+more-itertools==8.12.0 #More routines for operating on iterables, beyond itertools
+numpy==1.21.4 #Fundamental package for array computing with Python
+paho-mqtt==1.6.1 #MQTT version 5.0/3.1.1 client class
+pandas==1.3.4 #Powerfule data structures for data analysis, time series, and statistics
+Pillow==8.4.0 #Python Imaging Library (Fork)
+psycopg2-binary==2.9.2 #PostgreSQL database adapter for the Python programming language
+pysha3==1.0.2 #SHA-3 (Keccak) for Python 2.7 - 3.5
+python-dateutil==2.8.2 #Extensions to the standard Python datetime module
+pythonping==1.1.0 #A simple way to ping in Python
+pytz==2021.3 #World timezone definitions, modern and historical.
+requests==2.26.0 #Python HTTP for Humans
+sentry-sdk==1.5.0 #Python client for sentry
+six==1.16.0 #Python 2 and 3 compatibility utilities
+slackclient==2.9.3 #Slack API clients for Web API and RTM API
+Sphinx==4.3.1 #Python documentation generator, for creating documentation
+xlrd==2.0.1 #Extract data from Excel spreadsheets (.xls and .xlsx, versions 2.0 onwards) on any platform
+xlsxwriter==3.0.2 #A python module for creating Excel XLSX files

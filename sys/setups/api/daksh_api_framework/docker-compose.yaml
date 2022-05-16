@@ -1,0 +1,240 @@
+version: '3.9'
+
+services:
+  daksh_api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        GIT_USERNAME: ${GIT_USERNAME}
+        GIT_PASSWORD: ${GIT_PASSWORD}
+    image: gcr.io/avl-data-archiver/daksh-api-framework:latest
+
+  daksh_api_dev:
+    stdin_open: true
+    tty: true
+    restart: always
+    image: gcr.io/avl-data-archiver/daksh-api-framework:latest
+    container_name: daksh_api_dev
+    env_file:
+      - .env
+      - Docker/env/${DAKSH_API_FRAMEWORK_ENV}.env
+    working_dir: /root/src/daksh_api_framework
+    entrypoint:
+      - /bin/bash
+      - -c
+      - |
+          #sleep infinity
+          python3 manage.py runserver --insecure 0.0.0.0:9101 #Insecure helps us serve static with Debug = False, since this is the dev container, this is intentional.
+    ports:
+        - "9101:9101"
+    networks:
+      avl-docker:
+        ipv4_address: ${DAKSH_API_FRAMEWORK_IP}
+    volumes:
+        - .:/root/src/daksh_api_framework
+    healthcheck:
+      test: "curl -f -s -o /dev/null -I http://${DAKSH_API_FRAMEWORK_IP}:9101/login/"
+      interval: 10s
+      timeout: 10s
+      retries: 5
+    depends_on:
+      - "postgres_daksh_api"
+    deploy:
+      resources:
+        limits:
+          #mem_limit: 1000M
+          memory: 2000M
+          cpus: '2'
+    cpuset: '30,31'
+
+  daksh_api_prod:
+    stdin_open: true
+    tty: true
+    restart: always
+    image: gcr.io/avl-data-archiver/daksh-api-framework:latest
+    container_name: daksh_api_prod
+    env_file:
+      - .env
+      - Docker/env/${DAKSH_API_FRAMEWORK_ENV}.env
+    working_dir: /root/src/daksh_api_framework
+    entrypoint:
+      - /bin/bash
+      - -c
+      - |
+          gunicorn daksh_api_framework.wsgi -b 0.0.0.0:9101 --workers 2 -k gthread --threads 16 --timeout 300 --log-level info --limit-request-line 8190 --access-logfile -
+    ports:
+      - "9101:9101"
+    networks:
+      avl-docker:
+        ipv4_address: ${DAKSH_API_FRAMEWORK_IP}
+    volumes:
+      - .:/root/src/daksh_api_framework
+    healthcheck:
+      test: "curl -f -s -o /dev/null -I http://${DAKSH_API_FRAMEWORK_IP}:9101/login/"
+      interval: 10s
+      timeout: 10s
+      retries: 5
+    logging:
+      options:
+        tag: "{{.Name}} {{.ImageName}}"
+    depends_on:
+      - "postgres_daksh_api"
+
+  daksh_api_mqtt_listener:
+    stdin_open: true
+    tty: true
+    restart: always
+    image: gcr.io/avl-data-archiver/daksh-api-framework:latest
+    container_name: daksh_api_mqtt_listener
+    env_file:
+      - .env
+      - Docker/env/${DAKSH_API_FRAMEWORK_ENV}.env
+    working_dir: /root/src/daksh_api_framework
+    entrypoint:
+        - /bin/bash
+        - -c
+        - |
+             python3 manage.py postgres_data_ingestion
+    networks:
+      avl-docker:
+        ipv4_address: ${DAKSH_API_MQTT_LISTENER_IP}
+    volumes:
+        - .:/root/src/daksh_api_framework
+    logging:
+      options:
+        tag: "{{.Name}} {{.ImageName}}"
+    depends_on:
+        - "postgres_daksh_api"
+
+  daksh_api_init:
+    stdin_open: true
+    tty: true
+    image: gcr.io/avl-data-archiver/daksh-api-framework:latest
+    container_name: daksh_api_init
+    env_file:
+      - .env
+      - Docker/env/${DAKSH_API_FRAMEWORK_ENV}.env
+    working_dir: /root/src/daksh_api_framework
+    entrypoint:
+      - /bin/bash
+      - -c
+      - |
+          rm -rf static
+          python3 manage.py collectstatic --noinput && \
+          python3 manage.py avlmigrate -d && \
+          python3 manage.py avlmigrate -i && \
+          python3 manage.py makemigrations && \
+          python3 manage.py migrate && \
+          echo "from django.contrib.auth import get_user_model; User = get_user_model(); User.objects.filter(email='${DAKSH_API_FRAMEWORK_SU_EMAIL}').delete(); User.objects.create_superuser('admin', '${DAKSH_API_FRAMEWORK_SU_EMAIL}', '${DAKSH_API_FRAMEWORK_SU_PASS}')" | python3 manage.py shell
+    ports:
+      - "9101:9101"
+    networks:
+      avl-docker:
+        ipv4_address: ${DAKSH_API_FRAMEWORK_IP}
+    volumes:
+      - .:/root/src/daksh_api_framework
+    depends_on:
+      - "postgres_daksh_api"
+
+  daksh_api_analytics:
+    stdin_open: true
+    tty: true
+    restart: always
+    image: gcr.io/avl-data-archiver/daksh-api-framework:latest
+    container_name: daksh_api_analytics
+    env_file:
+      - .env
+      - Docker/env/${DAKSH_API_FRAMEWORK_ENV}.env
+    working_dir: /root/src/daksh_api_framework/notebooks
+    entrypoint:
+      - /bin/bash
+      - -c
+      - |
+          python3 ../manage.py shell_plus --notebook;
+    ports:
+      - "8891:8888"
+    networks:
+      avl-docker:
+        ipv4_address: ${DAKSH_API_ANALYTICS_IP}
+    volumes:
+      - .:/root/src/daksh_api_framework
+    healthcheck:
+      test: "curl -f -s -o /dev/null -I http://${DAKSH_API_ANALYTICS_IP}:8888/"
+      interval: 10s
+      timeout: 10s
+      retries: 5
+    logging:
+      options:
+        tag: "{{.Name}} {{.ImageName}}"
+
+  daksh_api_analytics_readonly:
+    stdin_open: true
+    tty: true
+    restart: always
+    image: gcr.io/avl-data-archiver/daksh-api-framework:latest
+    container_name: daksh_api_analytics_readonly
+    env_file:
+      - .env
+      - Docker/env/analytics.env
+    working_dir: /root/src/daksh_api_framework/notebooks
+    entrypoint:
+      - /bin/bash
+      - -c
+      - |
+        python3 ../manage.py shell_plus --notebook;
+    ports:
+      - "8890:8888"
+    networks:
+      avl-docker:
+        ipv4_address: ${DAKSH_API_ANALYTICS_READONLY_IP}
+    volumes:
+      - .:/root/src/daksh_api_framework
+    healthcheck:
+      test: "curl -f -s -o /dev/null -I http://${DAKSH_API_ANALYTICS_READONLY_IP}:8888/"
+      interval: 10s
+      timeout: 10s
+      retries: 5
+    logging:
+      options:
+        tag: "{{.Name}} {{.ImageName}}"
+
+  postgres_daksh_api:
+    stdin_open: true
+    tty: true
+    restart: always
+    image: gcr.io/avl-data-archiver/postgres_daksh_api:latest
+    container_name: postgres_daksh_api
+    entrypoint: postgres -c 'config_file=/etc/postgresql.conf'
+    user: postgres
+    env_file:
+      - .env
+      - Docker/env/${DAKSH_API_FRAMEWORK_ENV}.env
+    ports:
+      - "5438:5432"
+    volumes:
+      - postgres_daksh_api_volume:/var/lib/postgresql/data/pgdata
+      - ./Docker/postgresdb/postgresql.conf:/etc/postgresql.conf
+    networks:
+      avl-docker:
+        ipv4_address: ${DAKSH_API_POSTGRES_IP}
+    healthcheck:
+      test: "pg_isready -h localhost -p 5432 -q -U ${DAKSH_API_POSTGRES_USER} -d ${DAKSH_API_POSTGRES_DB}"
+      interval: 10s
+      timeout: 10s
+      retries: 5
+    deploy:
+      resources:
+        limits:
+          memory: 2000M
+          cpus: '4'
+    cpuset: '26-30'
+
+networks:
+  avl-docker:
+    external:
+      name: avl-docker
+
+volumes:
+  postgres_daksh_api_volume:
+    external: true

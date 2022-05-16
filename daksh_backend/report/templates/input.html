@@ -1,0 +1,139 @@
+<html>
+    <style type = "text/css"> 
+       body{
+    background-color: rgb(6, 58, 92);
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+font-variant-caps: all-petite-caps;
+    
+}
+.maindiv{
+background-color: white;
+padding: 2rem;
+padding-top: 0px;
+/* border: 5px solid red; */
+}
+.heading{
+    color: dodgerblue;
+    margin: 0px;
+}
+.form{
+    /* border: 3px solid red; */
+    background-color: rgb(255, 255, 255);
+    height: 350px;
+    width: 400px;
+    margin-top: 2rem;
+    
+}
+.datadiv{
+    /* border:3px solid red; */
+    display: flex;
+    height: 3em;
+    justify-content: space-between;
+}
+.timediv{
+    display: flex;
+    flex-direction: column;
+}
+.btn{
+    width: 400px;
+    height: 3rem;
+    color: white;
+    font-size: 20px;
+    background-color: dodgerblue;
+    
+}
+.btn:hover{
+    cursor: pointer;
+}
+
+.filetype{
+/* border: 5px solid red; */
+font-size: 20px;
+font-variant-caps: all-petite-caps;
+}
+.type{
+    /* border: 5px solid red; */
+    font-size: 17px;
+    font-variant-caps: all-petite-caps;
+}
+.img{
+
+    width: 150px;
+    height: 40px;
+    /* border: 2px solid red; */
+    margin-left: 70%;
+    
+}
+
+.logodiv{
+    /* width: 400px; */
+    
+    /* border:3px solid red; */
+    justify-content: space-between;
+    align-items: center;
+    width: 250px;
+    /* height: 50px; */
+    /* margin-top: -40px; */
+    
+   
+}
+     </style>
+  <body>
+    <!-- <form method="post" enctype="multipart/form-data">
+     
+      <input type="file" name="myfile">
+      <button type="submit">Upload</button>
+      
+    </form> -->
+   
+    <div class="maindiv">
+
+<img src="http://localhost:3000/static/media/Daksh-Logo.94fb6ec4.png"  class="img">
+
+      
+        <div  class="logodiv">
+      <h2 class="heading" >Create A report</h2>
+     
+        </div>
+   
+    <form action = "" method = "POST" class="form">
+      {% csrf_token %}
+      <div>
+      <label for="devices[]">Select Devices:</label>
+      <select name = "devices[]"   id = "devices">
+      <option value='EM1'>EM1</option>
+      <option value='EM2'>EM2</option>
+      <option value='EM3'>EM3</option>
+      <option value='EM4'>EM4</option>
+      <option value='EM5'>EM5</option>
+      </select>
+    </div>
+      <br><br><br>
+      <div class="datadiv">
+        <div class="timediv">
+      <label for="start_date">Start Date</label>
+      <input type="date" id="s_date" name="start_date">
+    </div>
+      <br><br><br>
+      <div class="timediv">
+      <label for="end_date">End Date</label>
+      <input type="date" id="e_date" name="end_date">
+    </div>
+    </div>
+      <br><br><br>
+      <label for="file_type" class="filetype">Select File Type:</label>
+      <select name="file_type" id="f_type" class="type" >
+        <option value="csv">csv</option>
+        <option value="pdf">pdf</option>
+      </select>
+      <br><br><br>
+      <button type="submit" class="btn">Get Report</button>
+    </form>
+  </div>
+    <!-- {{df|safe}} -->
+</body>
+</html>

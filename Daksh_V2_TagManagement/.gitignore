@@ -1,0 +1,108 @@
+# Created by http://gitignore.io
+
+### collected static files ###
+/static/*
+
+### user uploaded media files, eg. logo ###
+/media/*
+
+### local cache folder
+/cache/*
+
+### virtualenv sub-directories
+venv/
+
+### fixtures related to daksh_v2_tag_management and its categories
+/daksh_v2_tag_management/fixtures/*
+
+### Built doc files. ###
+_build/
+/docs_build/*
+
+### PyCharm ###
+.idea
+.iml
+
+### IntelliJ ###
+*.iml
+*.ipr
+*.iws
+.idea/
+
+## South ###
+migrations/
+
+### Django ###
+*.log
+*.pot
+*.pyc
+local_settings.py
+
+### Python ###
+*.py[cod]
+
+# C extensions
+*.so
+
+# Packages
+*.egg
+*.egg-info
+dist
+build
+eggs
+parts
+bin
+var
+sdist
+develop-eggs
+.installed.cfg
+lib
+lib64
+__pycache__
+
+# Installer logs
+pip-log.txt
+
+# Unit test / coverage reports
+.coverage
+.tox
+nosetests.xml
+
+# Translations
+*.mo
+
+# Mr Developer
+.mr.developer.cfg
+.project
+.pydevproject
+
+# Rope
+.ropeproject
+
+# Docker
+# production db pull script creates these temporary files
+Docker/postgresdb/*.sql*
+
+# Unix sed
+.*.sql
+
+#IPython
+**/.ipynb_checkpoints*
+**/*.djcache/*
+notebooks/
+
+# Airflow
+Docker/airflow/airflow-webserver.pid
+Docker/airflow/airflow.db
+Docker/airflow/logs
+Docker/airflow/cache/
+
+#Daksh V2 Tag Management Backups
+backup_files/
+
+#Mac dump files
+.DS_Store
+
+#Celery
+celery-schedule.db
+celerybeat.pid

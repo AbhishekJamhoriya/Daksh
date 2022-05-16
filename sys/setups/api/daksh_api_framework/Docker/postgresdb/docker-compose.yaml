@@ -1,0 +1,48 @@
+version: '3.9'
+
+services:
+  postgres_daksh_api:
+    stdin_open: true
+    tty: true
+    build: .
+    image: gcr.io/avl-data-archiver/postgres_daksh_api:latest
+    container_name: postgres_daksh_api
+    env_file:
+      - .env
+      - ../env/${DAKSH_API_FRAMEWORK_ENV}.env
+    ports:
+      - "5438:5432"
+    volumes:
+      - postgres_daksh_api_volume:/var/lib/postgresql/data/pgdata
+    networks:
+      avl-docker:
+        ipv4_address: ${DAKSH_API_POSTGRES_IP}
+    deploy:
+      resources:
+        limits:
+          memory: 2000M
+          cpus: '4'
+    cpuset: '26-30'
+
+  postgres_host:
+    image: gcr.io/avl-data-archiver/postgres_daksh_api:latest
+    env_file:
+      - .env
+      - ../env/${DAKSH_API_FRAMEWORK_ENV}.env
+    container_name: postgres_daksh_api_host
+    entrypoint: /root/restore-dump.sh
+    volumes:
+      - .:/root/
+    networks:
+      - avl-docker
+    depends_on:
+      - "postgres_daksh_api"
+
+networks:
+  avl-docker:
+    external:
+      name: avl-docker
+
+volumes:
+  postgres_daksh_api_volume:
+    external: true

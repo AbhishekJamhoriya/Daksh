@@ -1,0 +1,33 @@
+version: "3.9"
+
+services:
+
+#daksh_frontend:
+#build:
+#context: .
+#dockerfile: Dockerfile
+#image: node:16
+
+  daksh_frontend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    stdin_open: true
+    tty: true
+    restart: always
+    image: node:16
+    container_name: daksh_frontend
+    working_dir: /code
+    volumes:
+      - .:/code
+    entrypoint:
+      - /bin/bash
+      - -c
+      - |
+        serve -s build
+        #npm start --prod #/code/src/index.js 
+        #sleep infinity
+        #pm2 --name daksh_frontend start npm -- start 
+    ports:
+      - "3000:3000"
+

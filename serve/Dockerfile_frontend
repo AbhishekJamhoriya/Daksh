@@ -1,0 +1,13 @@
+FROM node:16
+
+ENV DEBUG False
+
+ENV TZ Asia/Kolkata
+
+EXPOSE 3000
+
+WORKDIR /code
+
+COPY ./frontend /code
+
+RUN npm install -g serve

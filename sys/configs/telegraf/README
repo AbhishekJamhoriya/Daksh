@@ -1,0 +1,11 @@
+relevant files:
+	docker_telegraf.conf
+	test2.conf
+	public_ip_telegraf.conf
+
+obsolete files:
+	balanced_telegraf.conf
+	docker_telegraf2.conf
+	docker_telegraf1.conf
+	haproxy_docker_telegraf.conf
+	

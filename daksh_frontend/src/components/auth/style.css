@@ -1,0 +1,31 @@
+.loginpage{
+    /* border: 5px solid red; */
+    width: 100vw;
+    height: 100vh;
+    margin-top: -6vh;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../../Images/Login\ Screen.png);
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+
+}
+.logindiv{
+    width: auto;
+    height: auto;
+    background-color: white;
+}
+.loginanddakshlogo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+    margin-top: 0.5rem;
+
+    width: 100%;
+}
+.signinbtn{
+    border: 5px solid red;
+}

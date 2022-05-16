@@ -1,0 +1,46 @@
+#version: "3"
+
+services: 
+
+    influxdb:
+        container_name: influxdb
+        image: influxdb:1.6
+        ports:
+            - "8086:8086"
+        #environment:
+        #  - INFLUXDB_DB=sensors
+        #  - INFLUXDB_ADMIN_USER=telegraf
+        #  - INFLUXDB_ADMIN_PASSWORD=telegraf
+        restart: always
+        deploy:
+          resources:
+            limits:
+              memory: 1000M
+              cpus: '2'
+        cpuset: '30,31'
+
+    telegraf:
+        image: telegraf
+        container_name: telegraf
+        #ports: 
+        #    - "1881:1883"
+        depends_on: 
+        #    - influxdb
+            - mosquitto
+        volumes:
+            - /home/manik/DakshV2_NIPL/sys/configs/telegraf/docker_telegraf_1ktopics.conf:/etc/telegraf/telegraf.conf:ro
+        deploy:
+          resources:
+            limits:
+              memory: 1000M
+              cpus: '2'
+        cpuset: '28,29'
+
+    mosquitto:
+        container_name: mosquitto
+        image: eclipse-mosquitto:1.6
+        ports:
+            - "1883:1883"
+        #restart: always
+        volumes:
+            - /home/manik/configs/mosquitto.conf:/etc/mosquitto/mosquitto.conf:ro

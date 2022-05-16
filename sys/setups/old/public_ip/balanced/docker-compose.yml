@@ -1,0 +1,64 @@
+#version: "3"
+
+services: 
+
+    #influxdb:
+    #    container_name: influxdb
+    #    image: influxdb
+    #    ports:
+    #        - "8086:8086"
+        #environment:
+        #  - INFLUXDB_DB=sensors
+        #  - INFLUXDB_ADMIN_USER=telegraf
+        #  - INFLUXDB_ADMIN_PASSWORD=telegraf
+        #restart: always
+
+    mosquitto1:
+        container_name: mosquitto1
+        image: eclipse-mosquitto:1.6
+        ports:
+            - "203.110.86.71:1881:1883"
+        #depends_on: 
+        #    - influxdb
+        #restart: always
+        volumes:
+            - /home/manik/configs/mosquitto.conf:/etc/mosquitto/mosquitto.conf:ro
+
+    #mosquitto2:
+    #    container_name: mosquitto2
+    #    image: eclipse-mosquitto:1.6
+    #    ports:
+    #        - "1882:1883"
+        #depends_on: 
+        #    - influxdb
+        #restart: always
+    #    volumes:
+    #        - /home/manik/configs/mosquitto2.conf:/etc/mosquitto/mosquitto.conf:ro
+
+    telegraf1:
+        image: telegraf
+        container_name: telegraf1
+        #ports: 
+        #    - "1881:1883"
+    #    depends_on: 
+    #        - influxdb
+        volumes:
+            - /home/manik/configs/telegraf/docker_telegraf.conf:/etc/telegraf/telegraf.conf:ro
+
+    telegraf2:
+        image: telegraf
+        container_name: telegraf2
+        #ports: 
+        #    - "1882:1883"
+    #    depends_on: 
+    #        - influxdb
+        volumes:
+            - /home/manik/configs/telegraf/docker_telegraf2.conf:/etc/telegraf/telegraf.conf:ro
+
+    #haproxy:
+    #    build: ./haproxy
+    #    container_name: haproxy
+    #    ports:
+    #        - "1883:1883"
+        #    - "80:80"
+

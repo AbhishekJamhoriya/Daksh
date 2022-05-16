@@ -1,0 +1,37 @@
+version: "3.9"
+
+services:
+
+  postgres:
+    build:
+      context: .
+      dockerfile: Dockerfile_postgres
+    stdin_open: true
+    tty: true
+    restart: always
+    image: postgres:14.1
+    container_name: postgres
+    volumes:
+      - ./postgres/commands/:/docker-entrypoint-initdb.d/
+    ports:
+      - "5432:5432"
+
+  daksh_backend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: python:3.8
+    restart: always
+    depends_on:
+      - "postgres"
+    stdin_open: true
+    tty: true
+    restart: always
+    image: python:3.8
+    container_name: daksh_backend
+    working_dir: /code
+    volumes:
+      - .:/code
+    ports:
+      - "8000:8000"
+      - "8080:8080"

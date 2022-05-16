@@ -1,0 +1,1509 @@
+Watching for file changes with StatReloader
+[12/May/2022 18:30:00] "GET /report/start-scheduler/ HTTP/1.1" 200 20
+[12/May/2022 18:30:03] "OPTIONS /auth/jwt/create/ HTTP/1.1" 200 0
+Bad Request: /auth/jwt/create/
+[12/May/2022 18:30:03] "POST /auth/jwt/create/ HTTP/1.1" 400 68
+[12/May/2022 18:30:17] "POST /auth/jwt/create/ HTTP/1.1" 200 224
+[12/May/2022 18:30:17] "OPTIONS /sensor/sensors/ HTTP/1.1" 200 0
+[12/May/2022 18:30:17] "OPTIONS /user/approval/ HTTP/1.1" 200 0
+[12/May/2022 18:30:17] "OPTIONS /user/name/ HTTP/1.1" 200 0
+[12/May/2022 18:30:17] "OPTIONS /user/name/ HTTP/1.1" 200 0
+[12/May/2022 18:30:17] "OPTIONS /sensor/sensors/ HTTP/1.1" 200 0
+[12/May/2022 18:30:17] "GET /sensor/sensors/ HTTP/1.1" 200 2
+[12/May/2022 18:30:17] "GET /user/approval/ HTTP/1.1" 200 126
+[12/May/2022 18:30:17] "GET /user/name/ HTTP/1.1" 200 124
+[12/May/2022 18:30:17] "GET /sensor/sensors/ HTTP/1.1" 200 2
+[12/May/2022 18:30:17] "GET /user/name/ HTTP/1.1" 200 124
+[12/May/2022 18:30:40] "GET /admin HTTP/1.1" 301 0
+[12/May/2022 18:30:40] "GET /admin/ HTTP/1.1" 302 0
+[12/May/2022 18:30:40] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1819
+[12/May/2022 18:30:40] "GET /static/admin/css/base.css HTTP/1.1" 200 16378
+[12/May/2022 18:30:40] "GET /static/admin/css/responsive.css HTTP/1.1" 200 17944
+[12/May/2022 18:30:40] "GET /static/admin/css/login.css HTTP/1.1" 200 1233
+[12/May/2022 18:30:41] "GET /admin/ HTTP/1.1" 302 0
+[12/May/2022 18:30:41] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1819
+[12/May/2022 18:30:41] "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[12/May/2022 18:30:41] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 85876
+[12/May/2022 18:30:41] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
+Not Found: /favicon.ico
+[12/May/2022 18:30:41] "GET /favicon.ico HTTP/1.1" 404 2971
+[12/May/2022 18:30:43] "POST /admin/login/?next=/admin/ HTTP/1.1" 200 1979
+[12/May/2022 18:30:43] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184
+[12/May/2022 18:30:47] "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[12/May/2022 18:30:47] "GET /admin/ HTTP/1.1" 200 5120
+[12/May/2022 18:30:47] "GET /static/admin/css/dashboard.css HTTP/1.1" 200 412
+[12/May/2022 18:30:47] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+[12/May/2022 18:30:47] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+[12/May/2022 18:30:49] "GET /admin/sensor/sensor/ HTTP/1.1" 200 3168
+[12/May/2022 18:30:49] "GET /static/admin/css/changelists.css HTTP/1.1" 200 6170
+[12/May/2022 18:30:49] "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 363
+[12/May/2022 18:30:49] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 6918
+[12/May/2022 18:30:49] "GET /static/admin/js/core.js HTTP/1.1" 200 7135
+[12/May/2022 18:30:49] "GET /static/admin/js/actions.js HTTP/1.1" 200 6538
+[12/May/2022 18:30:49] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 271751
+[12/May/2022 18:30:49] "GET /static/admin/js/urlify.js HTTP/1.1" 200 8972
+[12/May/2022 18:30:49] "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1530
+[12/May/2022 18:30:49] "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+[12/May/2022 18:30:49] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 128820
+[12/May/2022 18:30:49] "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+[12/May/2022 18:30:55] "GET /admin/ HTTP/1.1" 200 5120
+[12/May/2022 18:30:57] "GET /admin/custom_user/user/ HTTP/1.1" 200 8441
+[12/May/2022 18:30:57] "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+[12/May/2022 18:30:57] "GET /static/admin/img/search.svg HTTP/1.1" 200 458
+[12/May/2022 18:30:57] "GET /static/admin/img/icon-no.svg HTTP/1.1" 200 560
+[12/May/2022 18:30:57] "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+[12/May/2022 18:30:57] "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+[12/May/2022 18:31:00] "GET /admin/custom_user/user/1/change/ HTTP/1.1" 200 13973
+[12/May/2022 18:31:00] "GET /static/admin/js/SelectBox.js HTTP/1.1" 200 5755
+[12/May/2022 18:31:00] "GET /static/admin/css/forms.css HTTP/1.1" 200 8518
+[12/May/2022 18:31:00] "GET /static/admin/js/SelectFilter2.js HTTP/1.1" 200 12322
+[12/May/2022 18:31:00] "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+[12/May/2022 18:31:00] "GET /static/admin/css/widgets.css HTTP/1.1" 200 10340
+[12/May/2022 18:31:00] "GET /static/admin/js/change_form.js HTTP/1.1" 200 712
+[12/May/2022 18:31:00] "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 495
+[12/May/2022 18:31:00] "GET /static/admin/img/icon-unknown-alt.svg HTTP/1.1" 200 655
+[12/May/2022 18:31:00] "GET /static/admin/img/selector-icons.svg HTTP/1.1" 200 3291
+[12/May/2022 18:31:00] "GET /static/admin/img/icon-unknown.svg HTTP/1.1" 200 655
+[12/May/2022 18:31:12] "POST /admin/custom_user/user/1/change/ HTTP/1.1" 302 0
+[12/May/2022 18:31:12] "GET /admin/custom_user/user/ HTTP/1.1" 200 8622
+[12/May/2022 18:31:12] "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+[12/May/2022 18:31:17] "GET /user/name/ HTTP/1.1" 200 120
+[12/May/2022 18:31:17] "GET /user/approval/ HTTP/1.1" 200 2
+[12/May/2022 18:31:17] "GET /sensor/sensors/ HTTP/1.1" 200 2
+[12/May/2022 18:31:17] "GET /user/name/ HTTP/1.1" 200 120
+[12/May/2022 18:31:27] "GET /admin/custom_user/user/1/change/ HTTP/1.1" 200 14005
+[12/May/2022 18:31:27] "GET /admin/custom_user/user/ HTTP/1.1" 200 8441
+[12/May/2022 18:31:28] "GET /admin/ HTTP/1.1" 200 5439
+[12/May/2022 18:45:40] "GET /user/name/ HTTP/1.1" 200 120
+[12/May/2022 18:45:40] "GET /user/approval/ HTTP/1.1" 200 2
+[12/May/2022 18:45:40] "GET /sensor/sensors/ HTTP/1.1" 200 2
+[12/May/2022 18:45:40] "GET /user/name/ HTTP/1.1" 200 120
+[12/May/2022 18:45:45] "GET /admin/sensor/sensor/ HTTP/1.1" 200 3168
+[12/May/2022 18:45:45] "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+[12/May/2022 18:45:48] "GET /admin/ HTTP/1.1" 200 5439
+[12/May/2022 18:50:53] "OPTIONS /report/get-devices/ HTTP/1.1" 200 0
+[12/May/2022 18:50:53] "OPTIONS /report/get-devices/ HTTP/1.1" 200 0
+[12/May/2022 18:50:53] "GET /user/name/ HTTP/1.1" 200 120
+[12/May/2022 18:50:53] "GET /user/approval/ HTTP/1.1" 200 2
+[12/May/2022 18:50:53] "GET /report/get-devices/ HTTP/1.1" 200 325
+[12/May/2022 18:50:53] "GET /report/get-devices/ HTTP/1.1" 200 325
+[12/May/2022 18:51:22] "OPTIONS /report/get-schedule/ HTTP/1.1" 200 0
+[12/May/2022 18:51:22] "GET /report/get-schedule/ HTTP/1.1" 200 11
+[12/May/2022 18:51:30] "GET /admin/ HTTP/1.1" 200 5439
+[12/May/2022 18:57:06] "GET /user/name/ HTTP/1.1" 200 120
+[12/May/2022 18:57:06] "GET /report/get-devices/ HTTP/1.1" 200 325
+[12/May/2022 18:57:06] "GET /user/approval/ HTTP/1.1" 200 2
+[12/May/2022 18:57:06] "GET /report/get-devices/ HTTP/1.1" 200 325
+[12/May/2022 18:57:40] "GET /report/get-devices/ HTTP/1.1" 200 325
+[12/May/2022 18:57:40] "GET /user/name/ HTTP/1.1" 200 120
+[12/May/2022 18:57:40] "GET /user/approval/ HTTP/1.1" 200 2
+[12/May/2022 18:57:40] "GET /report/get-devices/ HTTP/1.1" 200 325
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+[12/May/2022 19:03:24] "GET /user/name/ HTTP/1.1" 200 120
+[12/May/2022 19:03:24] "GET /user/approval/ HTTP/1.1" 200 2
+Watching for file changes with StatReloader
+[13/May/2022 06:47:51] "OPTIONS /user/name/ HTTP/1.1" 200 0
+[13/May/2022 06:47:51] "OPTIONS /user/name/ HTTP/1.1" 200 0
+[13/May/2022 06:47:51] "OPTIONS /sensor/sensors/ HTTP/1.1" 200 0
+[13/May/2022 06:47:51] "OPTIONS /user/approval/ HTTP/1.1" 200 0
+[13/May/2022 06:47:51] "GET /sensor/sensors/ HTTP/1.1" 200 2
+[13/May/2022 06:47:51] "GET /user/approval/ HTTP/1.1" 200 2
+[13/May/2022 06:47:51] "GET /user/name/ HTTP/1.1" 200 120
+[13/May/2022 06:47:51] "GET /user/name/ HTTP/1.1" 200 120
+[13/May/2022 06:48:04] "GET /admin/ HTTP/1.1" 200 5439
+[13/May/2022 06:48:04] "GET /static/admin/css/base.css HTTP/1.1" 304 0
+[13/May/2022 06:48:04] "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+[13/May/2022 06:48:04] "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+[13/May/2022 06:48:05] "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+[13/May/2022 06:48:05] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+[13/May/2022 06:48:05] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+[13/May/2022 06:48:05] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+[13/May/2022 06:48:05] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 304 0
+[13/May/2022 06:48:05] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+Not Found: /favicon.ico
+[13/May/2022 06:48:05] "GET /favicon.ico HTTP/1.1" 404 2971
+[13/May/2022 06:48:08] "GET /admin/sensor/sensor/ HTTP/1.1" 200 3168
+[13/May/2022 06:48:08] "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+[13/May/2022 06:48:08] "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+[13/May/2022 06:48:08] "GET /static/admin/js/core.js HTTP/1.1" 304 0
+[13/May/2022 06:48:08] "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+[13/May/2022 06:48:08] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+[13/May/2022 06:48:08] "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+[13/May/2022 06:48:08] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+[13/May/2022 06:48:08] "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+[13/May/2022 06:48:08] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+[13/May/2022 06:48:08] "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+[13/May/2022 06:48:08] "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+[13/May/2022 06:48:12] "GET /admin/sensor/sensor/add/ HTTP/1.1" 200 5884
+[13/May/2022 06:48:12] "GET /static/admin/css/forms.css HTTP/1.1" 200 8518
+[13/May/2022 06:48:12] "GET /static/admin/js/change_form.js HTTP/1.1" 200 712
+[13/May/2022 06:48:12] "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 495
+[13/May/2022 06:48:12] "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+[13/May/2022 06:48:12] "GET /static/admin/css/widgets.css HTTP/1.1" 200 10340
+[13/May/2022 06:48:23] "GET /admin/sensor/sensor/add/ HTTP/1.1" 200 5884
+[13/May/2022 06:48:23] "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+[13/May/2022 06:48:24] "GET /admin/sensor/sensor/ HTTP/1.1" 200 3168
+[13/May/2022 06:48:24] "GET /admin/sensor/sensor/ HTTP/1.1" 200 3168
+[13/May/2022 06:48:26] "GET /admin/ HTTP/1.1" 200 5439
+[13/May/2022 06:48:27] "GET /admin/ HTTP/1.1" 200 5439
+[13/May/2022 06:48:39] "GET /admin/ HTTP/1.1" 200 5439
+[13/May/2022 06:48:42] "GET /admin/sensor/sensor/ HTTP/1.1" 200 3168
+[13/May/2022 06:48:42] "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+[13/May/2022 06:48:45] "GET /admin/sensor/sensor/add/ HTTP/1.1" 200 5884
+[13/May/2022 06:48:46] "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+[13/May/2022 06:49:02] "POST /admin/sensor/sensor/add/ HTTP/1.1" 302 0
+[13/May/2022 06:49:02] "GET /admin/sensor/sensor/ HTTP/1.1" 200 4509
+[13/May/2022 06:49:02] "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+[13/May/2022 06:49:02] "GET /static/admin/img/icon-yes.svg HTTP/1.1" 304 0
+[13/May/2022 06:49:10] "GET /admin/sensor/sensor/add/ HTTP/1.1" 200 5884
+[13/May/2022 06:49:10] "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+[13/May/2022 06:49:24] "POST /admin/sensor/sensor/add/ HTTP/1.1" 302 0
+[13/May/2022 06:49:24] "GET /admin/sensor/sensor/ HTTP/1.1" 200 4733
+[13/May/2022 06:49:24] "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+[13/May/2022 06:49:28] "GET /user/name/ HTTP/1.1" 200 120
+[13/May/2022 06:49:28] "GET /user/approval/ HTTP/1.1" 200 2
+[13/May/2022 06:49:28] "GET /sensor/sensors/ HTTP/1.1" 200 229
+[13/May/2022 06:49:28] "GET /user/name/ HTTP/1.1" 200 120
+[13/May/2022 06:49:38] "GET /admin/sensor/sensor/2/change/ HTTP/1.1" 200 6162
+[13/May/2022 06:49:38] "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+[13/May/2022 06:49:45] "POST /admin/sensor/sensor/2/change/ HTTP/1.1" 302 0
+[13/May/2022 06:49:45] "GET /admin/sensor/sensor/ HTTP/1.1" 200 4735
+[13/May/2022 06:49:45] "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+[13/May/2022 06:49:48] "GET /user/name/ HTTP/1.1" 200 120
+[13/May/2022 06:49:48] "GET /user/approval/ HTTP/1.1" 200 2
+[13/May/2022 06:49:48] "GET /sensor/sensors/ HTTP/1.1" 200 229
+[13/May/2022 06:49:48] "GET /user/name/ HTTP/1.1" 200 120
+[13/May/2022 06:50:22] "OPTIONS /report/get-devices/ HTTP/1.1" 200 0
+[13/May/2022 06:50:22] "OPTIONS /report/get-devices/ HTTP/1.1" 200 0
+[13/May/2022 06:50:22] "GET /user/name/ HTTP/1.1" 200 120
+[13/May/2022 06:50:22] "GET /user/approval/ HTTP/1.1" 200 2
+[13/May/2022 06:50:22] "GET /report/get-devices/ HTTP/1.1" 200 325
+[13/May/2022 06:50:22] "GET /report/get-devices/ HTTP/1.1" 200 325
+[13/May/2022 07:04:20] "GET /user/name/ HTTP/1.1" 200 120
+[13/May/2022 07:04:20] "GET /report/get-devices/ HTTP/1.1" 200 325
+[13/May/2022 07:04:20] "GET /user/approval/ HTTP/1.1" 200 2
+[13/May/2022 07:04:21] "GET /report/get-devices/ HTTP/1.1" 200 325
+[13/May/2022 07:05:24] "GET /report/get-devices/ HTTP/1.1" 200 325
+[13/May/2022 07:05:24] "GET /user/approval/ HTTP/1.1" 200 2
+[13/May/2022 07:05:24] "GET /user/name/ HTTP/1.1" 200 120
+[13/May/2022 07:05:25] "GET /report/get-devices/ HTTP/1.1" 200 325
+[13/May/2022 07:07:25] "GET /user/approval/ HTTP/1.1" 200 2
+[13/May/2022 07:07:25] "GET /user/name/ HTTP/1.1" 200 120
+[13/May/2022 07:07:25] "GET /user/name/ HTTP/1.1" 200 120
+[13/May/2022 07:07:25] "GET /sensor/sensors/ HTTP/1.1" 200 229
+[13/May/2022 07:07:28] "GET / HTTP/1.1" 200 4124
+[13/May/2022 07:07:28] "GET /static/rest_framework_swagger/css/typography.css HTTP/1.1" 200 452
+[13/May/2022 07:07:28] "GET /static/rest_framework_swagger/lib/jquery.slideto.min.js HTTP/1.1" 200 369
+[13/May/2022 07:07:28] "GET /static/rest_framework_swagger/css/reset.css HTTP/1.1" 200 1066
+[13/May/2022 07:07:28] "GET /static/rest_framework_swagger/lib/object-assign-pollyfill.js HTTP/1.1" 200 692
+[13/May/2022 07:07:28] "GET /static/rest_framework_swagger/lib/jquery-1.8.0.min.js HTTP/1.1" 200 92555
+[13/May/2022 07:07:28] "GET /static/rest_framework_swagger/css/screen.css HTTP/1.1" 200 48986
+[13/May/2022 07:07:29] "GET /static/rest_framework_swagger/lib/jquery.ba-bbq.min.js HTTP/1.1" 200 4119
+[13/May/2022 07:07:29] "GET /static/rest_framework_swagger/lib/jquery.wiggle.min.js HTTP/1.1" 200 762
+[13/May/2022 07:07:29] "GET /static/rest_framework_swagger/lib/handlebars-2.0.0.js HTTP/1.1" 200 48517
+[13/May/2022 07:07:29] "GET /static/rest_framework_swagger/lib/backbone-min.js HTTP/1.1" 200 20390
+[13/May/2022 07:07:29] "GET /static/rest_framework_swagger/lib/highlight.9.1.0.pack_extended.js HTTP/1.1" 200 1025
+[13/May/2022 07:07:29] "GET /static/rest_framework_swagger/lib/lodash.min.js HTTP/1.1" 200 52646
+[13/May/2022 07:07:29] "GET /static/rest_framework_swagger/lib/highlight.9.1.0.pack.js HTTP/1.1" 200 11037
+[13/May/2022 07:07:29] "GET /static/rest_framework_swagger/lib/js-yaml.min.js HTTP/1.1" 200 43621
+[13/May/2022 07:07:29] "GET /static/rest_framework_swagger/lib/jsoneditor.min.js HTTP/1.1" 200 130042
+[13/May/2022 07:07:29] "GET /static/rest_framework_swagger/lib/marked.js HTTP/1.1" 200 28156
+[13/May/2022 07:07:29] "GET /static/rest_framework_swagger/lib/swagger-oauth.js HTTP/1.1" 200 11615
+[13/May/2022 07:07:29] "GET /static/rest_framework_swagger/swagger-ui.min.js HTTP/1.1" 200 289384
+[13/May/2022 07:07:29] "GET /static/rest_framework_swagger/init.js HTTP/1.1" 200 1434
+[13/May/2022 07:07:29] "GET /static/rest_framework_swagger/images/logo_small.png HTTP/1.1" 200 770
+[13/May/2022 07:07:29] "GET /static/rest_framework_swagger/css/print.css HTTP/1.1" 200 46473
+[13/May/2022 07:07:29] "GET /?format=openapi HTTP/1.1" 200 11702
+[13/May/2022 07:07:29] "GET /static/rest_framework_swagger/images/favicon-32x32.png HTTP/1.1" 200 1654
+[13/May/2022 07:07:43] "GET /report/get-devices/ HTTP/1.1" 200 6637
+[13/May/2022 07:07:43] "GET /static/rest_framework/css/default.css HTTP/1.1" 200 1131
+[13/May/2022 07:07:43] "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3385
+[13/May/2022 07:07:43] "GET /static/rest_framework/css/prettify.css HTTP/1.1" 200 817
+[13/May/2022 07:07:43] "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121200
+[13/May/2022 07:07:43] "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 200 3597
+[13/May/2022 07:07:43] "GET /static/rest_framework/js/csrf.js HTTP/1.1" 200 1735
+[13/May/2022 07:07:43] "GET /static/rest_framework/js/default.js HTTP/1.1" 200 1262
+[13/May/2022 07:07:43] "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 200 13632
+[13/May/2022 07:07:43] "GET /static/rest_framework/js/jquery-1.12.4.min.js HTTP/1.1" 200 97163
+[13/May/2022 07:07:43] "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 37045
+[13/May/2022 07:07:43] "GET /static/rest_framework/img/grid.png HTTP/1.1" 200 1458
+[13/May/2022 07:09:56] "GET /user/name/ HTTP/1.1" 200 120
+[13/May/2022 07:09:56] "GET /report/get-devices/ HTTP/1.1" 200 325
+[13/May/2022 07:09:56] "GET /user/approval/ HTTP/1.1" 200 2
+[13/May/2022 07:09:56] "GET /report/get-devices/ HTTP/1.1" 200 325
+Watching for file changes with StatReloader
+[13/May/2022 07:52:31] "GET /report/start-scheduler/ HTTP/1.1" 200 20
+[13/May/2022 07:52:33] "OPTIONS /auth/jwt/create/ HTTP/1.1" 200 0
+Bad Request: /auth/jwt/create/
+[13/May/2022 07:52:34] "POST /auth/jwt/create/ HTTP/1.1" 400 68
+[13/May/2022 07:52:45] "POST /auth/jwt/create/ HTTP/1.1" 200 224
+[13/May/2022 07:52:45] "GET /user/name/ HTTP/1.1" 200 120
+[13/May/2022 07:52:45] "GET /user/approval/ HTTP/1.1" 200 2
+[13/May/2022 07:52:45] "GET /sensor/sensors/ HTTP/1.1" 200 229
+[13/May/2022 07:52:45] "GET /user/name/ HTTP/1.1" 200 120
+[13/May/2022 07:52:45] "GET /sensor/sensors/ HTTP/1.1" 200 229
+Method Not Allowed: /report/getreport/
+[13/May/2022 07:53:14] "GET /report/getreport/ HTTP/1.1" 405 5919
+[13/May/2022 07:53:37] "GET /report/get-devices/ HTTP/1.1" 200 6410
+[13/May/2022 07:54:08] "GET /report/get-devices/ HTTP/1.1" 200 325
+[13/May/2022 07:54:09] "GET /user/name/ HTTP/1.1" 200 120
+[13/May/2022 07:54:09] "GET /user/approval/ HTTP/1.1" 200 2
+[13/May/2022 07:54:09] "GET /report/get-devices/ HTTP/1.1" 200 325
+[13/May/2022 07:54:25] "GET /report/get-devices/ HTTP/1.1" 200 6410
+[13/May/2022 07:54:43] "GET /user/name/ HTTP/1.1" 200 120
+[13/May/2022 07:54:43] "GET /report/get-devices/ HTTP/1.1" 200 325
+[13/May/2022 07:54:43] "GET /user/approval/ HTTP/1.1" 200 2
+[13/May/2022 07:54:43] "GET /report/get-devices/ HTTP/1.1" 200 325
+[13/May/2022 07:54:47] "GET /user/name/ HTTP/1.1" 200 120
+[13/May/2022 07:54:47] "GET /user/approval/ HTTP/1.1" 200 2
+[13/May/2022 07:54:47] "GET /report/get-devices/ HTTP/1.1" 200 325
+[13/May/2022 07:54:47] "GET /report/get-devices/ HTTP/1.1" 200 325
+[13/May/2022 07:55:01] "GET /report/get-devices/ HTTP/1.1" 200 325
+[13/May/2022 07:55:01] "GET /user/name/ HTTP/1.1" 200 120
+[13/May/2022 07:55:01] "GET /user/approval/ HTTP/1.1" 200 2
+[13/May/2022 07:55:01] "GET /report/get-devices/ HTTP/1.1" 200 325
+[13/May/2022 07:55:21] "GET /user/name/ HTTP/1.1" 200 120
+[13/May/2022 07:55:21] "GET /report/get-devices/ HTTP/1.1" 200 325
+[13/May/2022 07:55:21] "GET /user/approval/ HTTP/1.1" 200 2
+[13/May/2022 07:55:21] "GET /report/get-devices/ HTTP/1.1" 200 325
+[13/May/2022 07:56:45] "GET /user/name/ HTTP/1.1" 200 120
+[13/May/2022 07:56:45] "GET /report/get-devices/ HTTP/1.1" 200 325
+[13/May/2022 07:56:45] "GET /user/approval/ HTTP/1.1" 200 2
+[13/May/2022 07:56:45] "GET /report/get-devices/ HTTP/1.1" 200 325
+[13/May/2022 07:58:14] "GET /user/name/ HTTP/1.1" 200 120
+[13/May/2022 07:58:14] "GET /report/get-devices/ HTTP/1.1" 200 325
+[13/May/2022 07:58:14] "GET /user/approval/ HTTP/1.1" 200 2
+[13/May/2022 07:58:14] "GET /report/get-devices/ HTTP/1.1" 200 325
+Watching for file changes with StatReloader
+[13/May/2022 08:15:31] "GET /report/get-devices/ HTTP/1.1" 200 6410
+[13/May/2022 08:15:36] "GET /report/start-scheduler/ HTTP/1.1" 200 20
+Bad Request: /auth/jwt/create/
+[13/May/2022 08:15:38] "POST /auth/jwt/create/ HTTP/1.1" 400 68
+Bad Request: /auth/jwt/create/
+[13/May/2022 08:15:39] "POST /auth/jwt/create/ HTTP/1.1" 400 68
+[13/May/2022 08:15:46] "POST /auth/jwt/create/ HTTP/1.1" 200 224
+[13/May/2022 08:15:46] "GET /user/name/ HTTP/1.1" 200 120
+[13/May/2022 08:15:46] "GET /sensor/sensors/ HTTP/1.1" 200 229
+[13/May/2022 08:15:46] "GET /user/approval/ HTTP/1.1" 200 2
+[13/May/2022 08:15:46] "GET /user/name/ HTTP/1.1" 200 120
+[13/May/2022 08:15:46] "GET /sensor/sensors/ HTTP/1.1" 200 229
+[13/May/2022 08:15:56] "GET /user/name/ HTTP/1.1" 200 120
+[13/May/2022 08:15:56] "GET /report/get-devices/ HTTP/1.1" 200 325
+[13/May/2022 08:15:56] "GET /user/approval/ HTTP/1.1" 200 2
+[13/May/2022 08:15:56] "GET /report/get-devices/ HTTP/1.1" 200 325
+[13/May/2022 08:25:54] "OPTIONS /report/getreport/ HTTP/1.1" 200 0
+/usr/local/lib/python3.8/site-packages/xlsxwriter/worksheet.py:1439: UserWarning: Image file '.\report\header.PNG' not found.
+  warn("Image file '%s' not found." % filename)
+Internal Server Error: /report/getreport/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/usr/local/lib/python3.8/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/local/lib/python3.8/site-packages/rest_framework/views.py", line 494, in dispatch
+    response = self.handle_exception(exc)
+  File "/usr/local/lib/python3.8/site-packages/rest_framework/views.py", line 454, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python3.8/site-packages/rest_framework/views.py", line 491, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/code/report/views.py", line 671, in post
+    excel_file=open('.\\report.xlsx','rb').read()
+FileNotFoundError: [Errno 2] No such file or directory: '.\\report.xlsx'
+[13/May/2022 08:25:54] "POST /report/getreport/ HTTP/1.1" 500 14626
+Method Not Allowed: /report/getreport/
+[13/May/2022 08:46:13] "GET /report/getreport/ HTTP/1.1" 405 5919
+[13/May/2022 08:46:21] "GET /admin/ HTTP/1.1" 302 0
+[13/May/2022 08:46:21] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1819
+[13/May/2022 08:46:21] "GET /static/admin/css/login.css HTTP/1.1" 304 0
+[13/May/2022 08:46:23] "POST /admin/login/?next=/admin/ HTTP/1.1" 200 1979
+[13/May/2022 08:46:26] "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[13/May/2022 08:46:26] "GET /admin/ HTTP/1.1" 200 6298
+[13/May/2022 08:46:33] "GET /admin/report/report/ HTTP/1.1" 200 3168
+[13/May/2022 08:46:33] "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+[13/May/2022 08:46:46] "GET /admin/ HTTP/1.1" 200 6298
+[13/May/2022 08:46:50] "GET /admin/report/schedule/ HTTP/1.1" 200 3182
+[13/May/2022 08:46:50] "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+[13/May/2022 08:46:51] "GET /admin/ HTTP/1.1" 200 6298
+[13/May/2022 08:46:52] "GET /admin/report/report/ HTTP/1.1" 200 3168
+[13/May/2022 08:46:52] "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+[13/May/2022 08:46:53] "GET /admin/ HTTP/1.1" 200 6298
+[13/May/2022 08:46:59] "GET /admin/auth/group/ HTTP/1.1" 200 3501
+[13/May/2022 08:46:59] "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+[13/May/2022 08:46:59] "GET /static/admin/img/search.svg HTTP/1.1" 200 458
+[13/May/2022 08:47:00] "GET /admin/ HTTP/1.1" 200 6298
+[13/May/2022 08:47:01] "GET /admin/custom_user/user/ HTTP/1.1" 200 8441
+[13/May/2022 08:47:01] "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+[13/May/2022 08:47:01] "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 304 0
+[13/May/2022 08:47:02] "GET /admin/ HTTP/1.1" 200 6298
+[13/May/2022 08:47:04] "GET /admin/sensor/sensor/ HTTP/1.1" 200 4551
+[13/May/2022 08:47:04] "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+[13/May/2022 08:47:05] "GET /admin/ HTTP/1.1" 200 6298
+Watching for file changes with StatReloader
+[13/May/2022 08:51:08] "OPTIONS /user/name/ HTTP/1.1" 200 0
+[13/May/2022 08:51:08] "OPTIONS /report/get-devices/ HTTP/1.1" 200 0
+[13/May/2022 08:51:08] "OPTIONS /user/approval/ HTTP/1.1" 200 0
+[13/May/2022 08:51:08] "OPTIONS /report/get-devices/ HTTP/1.1" 200 0
+[13/May/2022 08:51:08] "GET /user/approval/ HTTP/1.1" 200 2
+[13/May/2022 08:51:08] "GET /report/get-devices/ HTTP/1.1" 200 325
+[13/May/2022 08:51:08] "GET /user/name/ HTTP/1.1" 200 120
+[13/May/2022 08:51:08] "GET /report/get-devices/ HTTP/1.1" 200 325
+[13/May/2022 08:51:14] "GET /admin/ HTTP/1.1" 200 6298
+[13/May/2022 08:51:16] "GET /admin/report/report/ HTTP/1.1" 200 3168
+[13/May/2022 08:51:16] "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+[13/May/2022 08:51:18] "GET /admin/ HTTP/1.1" 200 6298
+[13/May/2022 08:59:31] "GET /admin/ HTTP/1.1" 200 6298
+[13/May/2022 08:59:33] "GET /admin/report/report/ HTTP/1.1" 200 3168
+[13/May/2022 08:59:33] "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+[13/May/2022 08:59:35] "GET /admin/ HTTP/1.1" 200 6298
+[13/May/2022 08:59:41] "GET /user/name/ HTTP/1.1" 200 120
+[13/May/2022 08:59:41] "GET /user/approval/ HTTP/1.1" 200 2
+[13/May/2022 08:59:41] "GET /report/get-devices/ HTTP/1.1" 200 325
+[13/May/2022 08:59:41] "GET /report/get-devices/ HTTP/1.1" 200 325
+Watching for file changes with StatReloader
+[13/May/2022 09:20:49] "OPTIONS /sensor/sensors/ HTTP/1.1" 200 0
+[13/May/2022 09:20:49] "GET /user/name/ HTTP/1.1" 200 120
+[13/May/2022 09:20:49] "GET /user/approval/ HTTP/1.1" 200 2
+[13/May/2022 09:20:49] "GET /sensor/sensors/ HTTP/1.1" 200 229
+[13/May/2022 09:20:49] "GET /user/name/ HTTP/1.1" 200 120
+[13/May/2022 09:20:59] "GET /admin/ HTTP/1.1" 200 6298
+[13/May/2022 09:20:59] "GET /admin/ HTTP/1.1" 200 6298
+[13/May/2022 09:21:02] "GET /admin/report/report/ HTTP/1.1" 200 3168
+[13/May/2022 09:21:02] "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+[13/May/2022 09:21:07] "GET /user/name/ HTTP/1.1" 200 120
+[13/May/2022 09:21:07] "GET /sensor/sensors/ HTTP/1.1" 200 229
+[13/May/2022 09:21:07] "GET /user/approval/ HTTP/1.1" 200 2
+[13/May/2022 09:21:07] "GET /user/name/ HTTP/1.1" 200 120
+Watching for file changes with StatReloader
+[13/May/2022 09:48:33] "GET /admin/ HTTP/1.1" 302 0
+[13/May/2022 09:48:33] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1819
+[13/May/2022 09:48:35] "POST /admin/login/?next=/admin/ HTTP/1.1" 200 1979
+[13/May/2022 09:48:41] "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[13/May/2022 09:48:41] "GET /admin/ HTTP/1.1" 200 6298
+[13/May/2022 09:48:46] "GET /admin/report/report/ HTTP/1.1" 200 3168
+[13/May/2022 09:48:46] "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+[13/May/2022 09:51:11] "GET /admin/report/report/ HTTP/1.1" 200 3168
+[13/May/2022 09:51:11] "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+[13/May/2022 09:51:19] "GET /report/get-devices/ HTTP/1.1" 200 325
+[13/May/2022 09:51:19] "GET /user/approval/ HTTP/1.1" 200 2
+[13/May/2022 09:51:19] "GET /user/name/ HTTP/1.1" 200 120
+[13/May/2022 09:51:19] "GET /report/get-devices/ HTTP/1.1" 200 325
+Method Not Allowed: /report/getreport/
+[13/May/2022 09:51:46] "GET /report/getreport/ HTTP/1.1" 405 6146
+Not Found: /report/device/
+[13/May/2022 09:52:09] "GET /report/device/ HTTP/1.1" 404 4361
+[13/May/2022 09:52:44] "GET /report/get-devices/ HTTP/1.1" 200 6637
+/code/report/views.py changed, reloading.
+Performing system checks...
+
+Checking for reports to import...
+System check identified no issues (0 silenced).
+May 13, 2022 - 09:48:30
+Django version 2.2, using settings 'config.settings.local'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+[13/May/2022 09:55:12] "GET /user/approval/ HTTP/1.1" 200 2
+[13/May/2022 09:55:12] "GET /user/name/ HTTP/1.1" 200 120
+[13/May/2022 09:55:12] "GET /report/get-devices/ HTTP/1.1" 200 325
+[13/May/2022 09:55:12] "GET /report/get-devices/ HTTP/1.1" 200 325
+[13/May/2022 10:19:58] "GET /report/get-devices/ HTTP/1.1" 200 325
+[13/May/2022 10:19:58] "GET /user/name/ HTTP/1.1" 200 120
+[13/May/2022 10:19:58] "GET /user/approval/ HTTP/1.1" 200 2
+[13/May/2022 10:19:58] "GET /report/get-devices/ HTTP/1.1" 200 325
+[13/May/2022 10:20:01] "GET /report/get-devices/ HTTP/1.1" 200 325
+[13/May/2022 10:20:01] "GET /user/name/ HTTP/1.1" 200 120
+[13/May/2022 10:20:01] "GET /user/approval/ HTTP/1.1" 200 2
+[13/May/2022 10:20:01] "GET /report/get-devices/ HTTP/1.1" 200 325
+[13/May/2022 10:23:43] "GET /report/get-devices/ HTTP/1.1" 200 6637
+[13/May/2022 10:23:48] "GET /admin/report/report/ HTTP/1.1" 200 3168
+[13/May/2022 10:23:48] "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+[13/May/2022 10:23:50] "GET /admin/ HTTP/1.1" 200 6298
+/code/report/views.py changed, reloading.
+Performing system checks...
+
+Checking for reports to import...
+System check identified no issues (0 silenced).
+May 13, 2022 - 09:54:41
+Django version 2.2, using settings 'config.settings.local'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+All_devices <QuerySet []>
+All_devices <QuerySet []>
+All_devices <QuerySet []>
+All_devices <QuerySet []>
+All_devices <QuerySet []>
+All_devices <QuerySet []>
+All_devices <QuerySet []>
+Watching for file changes with StatReloader
+[13/May/2022 10:26:17] "GET /report/get-devices/ HTTP/1.1" 200 325
+[13/May/2022 10:26:17] "GET /user/approval/ HTTP/1.1" 200 2
+[13/May/2022 10:26:17] "GET /user/name/ HTTP/1.1" 200 120
+[13/May/2022 10:26:17] "GET /report/get-devices/ HTTP/1.1" 200 325
+/code/report/views.py changed, reloading.
+Performing system checks...
+
+Checking for reports to import...
+System check identified no issues (0 silenced).
+May 13, 2022 - 10:26:14
+Django version 2.2, using settings 'config.settings.local'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+All_devices <QuerySet []>
+All_devices <QuerySet []>
+Watching for file changes with StatReloader
+[13/May/2022 10:39:42] "GET /report/start-scheduler/ HTTP/1.1" 200 20
+[13/May/2022 10:39:43] "OPTIONS /auth/jwt/create/ HTTP/1.1" 200 0
+Bad Request: /auth/jwt/create/
+[13/May/2022 10:39:44] "POST /auth/jwt/create/ HTTP/1.1" 400 68
+[13/May/2022 10:39:48] "POST /auth/jwt/create/ HTTP/1.1" 200 224
+[13/May/2022 10:39:48] "GET /sensor/sensors/ HTTP/1.1" 200 229
+[13/May/2022 10:39:48] "GET /user/name/ HTTP/1.1" 200 120
+[13/May/2022 10:39:48] "GET /sensor/sensors/ HTTP/1.1" 200 229
+[13/May/2022 10:39:48] "GET /user/approval/ HTTP/1.1" 200 2
+[13/May/2022 10:39:48] "GET /user/name/ HTTP/1.1" 200 120
+[13/May/2022 10:39:58] "GET /admin/ HTTP/1.1" 200 6298
+[13/May/2022 10:40:04] "GET /user/approval/ HTTP/1.1" 200 2
+[13/May/2022 10:40:04] "GET /user/name/ HTTP/1.1" 200 120
+[13/May/2022 10:40:04] "GET /report/get-devices/ HTTP/1.1" 200 325
+[13/May/2022 10:40:04] "GET /report/get-devices/ HTTP/1.1" 200 325
+[13/May/2022 10:40:12] "GET /admin/report/report/ HTTP/1.1" 200 3168
+[13/May/2022 10:40:12] "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+[13/May/2022 10:40:14] "GET /report/get-devices/ HTTP/1.1" 200 6637
+/code/report/views.py changed, reloading.
+Performing system checks...
+
+Checking for reports to import...
+System check identified no issues (0 silenced).
+May 13, 2022 - 10:39:39
+Django version 2.2, using settings 'config.settings.local'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+scheduler has started xoxo
+All_devices <QuerySet []>
+All_devices <QuerySet []>
+All_devices <QuerySet []>
+Watching for file changes with StatReloader
+[13/May/2022 10:48:47] "GET /report/start-scheduler/ HTTP/1.1" 200 20
+[13/May/2022 10:56:47] "OPTIONS /auth/jwt/create/ HTTP/1.1" 200 0
+Bad Request: /auth/jwt/create/
+[13/May/2022 10:56:47] "POST /auth/jwt/create/ HTTP/1.1" 400 68
+[13/May/2022 10:56:53] "POST /auth/jwt/create/ HTTP/1.1" 200 224
+[13/May/2022 10:56:53] "OPTIONS /sensor/sensors/ HTTP/1.1" 200 0
+[13/May/2022 10:56:53] "OPTIONS /user/name/ HTTP/1.1" 200 0
+[13/May/2022 10:56:53] "OPTIONS /user/approval/ HTTP/1.1" 200 0
+[13/May/2022 10:56:53] "OPTIONS /sensor/sensors/ HTTP/1.1" 200 0
+[13/May/2022 10:56:53] "OPTIONS /user/name/ HTTP/1.1" 200 0
+[13/May/2022 10:56:53] "GET /user/approval/ HTTP/1.1" 200 2
+[13/May/2022 10:56:53] "GET /user/name/ HTTP/1.1" 200 120
+[13/May/2022 10:56:53] "GET /sensor/sensors/ HTTP/1.1" 200 229
+[13/May/2022 10:56:53] "GET /user/name/ HTTP/1.1" 200 120
+[13/May/2022 10:56:54] "GET /sensor/sensors/ HTTP/1.1" 200 229
+[13/May/2022 10:58:34] "OPTIONS /user/approval/ HTTP/1.1" 200 0
+[13/May/2022 10:58:34] "OPTIONS /user/name/ HTTP/1.1" 200 0
+[13/May/2022 10:58:34] "OPTIONS /report/get-devices/ HTTP/1.1" 200 0
+[13/May/2022 10:58:34] "OPTIONS /report/get-devices/ HTTP/1.1" 200 0
+[13/May/2022 10:58:34] "GET /user/name/ HTTP/1.1" 200 120
+[13/May/2022 10:58:34] "GET /user/approval/ HTTP/1.1" 200 2
+[13/May/2022 10:58:34] "GET /report/get-devices/ HTTP/1.1" 200 325
+[13/May/2022 10:58:34] "GET /report/get-devices/ HTTP/1.1" 200 325
+[13/May/2022 10:58:34] "OPTIONS /auth/jwt/refresh/ HTTP/1.1" 200 0
+[13/May/2022 10:58:34] "POST /auth/jwt/refresh/ HTTP/1.1" 200 224
+[13/May/2022 11:16:53] "OPTIONS /report/get-devices/ HTTP/1.1" 200 0
+[13/May/2022 11:16:53] "OPTIONS /user/approval/ HTTP/1.1" 200 0
+[13/May/2022 11:16:53] "OPTIONS /user/name/ HTTP/1.1" 200 0
+[13/May/2022 11:16:53] "OPTIONS /report/get-devices/ HTTP/1.1" 200 0
+[13/May/2022 11:16:53] "GET /report/get-devices/ HTTP/1.1" 200 325
+[13/May/2022 11:16:53] "GET /user/name/ HTTP/1.1" 200 120
+[13/May/2022 11:16:53] "GET /user/approval/ HTTP/1.1" 200 2
+[13/May/2022 11:16:53] "GET /report/get-devices/ HTTP/1.1" 200 325
+[13/May/2022 11:17:48] "GET /admin/report/report/ HTTP/1.1" 200 3168
+[13/May/2022 11:17:48] "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+/code/report/views.py changed, reloading.
+Performing system checks...
+
+Checking for reports to import...
+System check identified no issues (0 silenced).
+May 13, 2022 - 10:40:57
+Django version 2.2, using settings 'config.settings.local'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+scheduler has started xoxo
+All_devices <QuerySet []>
+All_devices <QuerySet []>
+All_devices <QuerySet []>
+All_devices <QuerySet []>
+Watching for file changes with StatReloader
+[13/May/2022 11:52:48] "GET /admin/report/report/ HTTP/1.1" 200 3168
+[13/May/2022 11:52:48] "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+[13/May/2022 11:52:51] "GET /user/name/ HTTP/1.1" 200 120
+[13/May/2022 11:52:51] "GET /user/approval/ HTTP/1.1" 200 2
+[13/May/2022 11:52:51] "GET /report/get-devices/ HTTP/1.1" 200 325
+[13/May/2022 11:52:51] "GET /report/get-devices/ HTTP/1.1" 200 325
+[13/May/2022 11:53:04] "GET /report/get-devices/ HTTP/1.1" 200 6637
+[13/May/2022 11:53:06] "GET /report/get-devices/ HTTP/1.1" 200 6637
+/code/report/views.py changed, reloading.
+Performing system checks...
+
+Checking for reports to import...
+System check identified no issues (0 silenced).
+May 13, 2022 - 11:51:45
+Django version 2.2, using settings 'config.settings.local'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+All_devices <QuerySet []>
+All_devices <QuerySet []>
+All_devices <QuerySet []>
+All_devices <QuerySet []>
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+[13/May/2022 15:47:24] "OPTIONS /user/name/ HTTP/1.1" 200 0
+[13/May/2022 15:47:24] "OPTIONS /user/approval/ HTTP/1.1" 200 0
+[13/May/2022 15:47:24] "OPTIONS /user/name/ HTTP/1.1" 200 0
+[13/May/2022 15:47:24] "OPTIONS /sensor/sensors/ HTTP/1.1" 200 0
+[13/May/2022 15:47:24] "GET /sensor/sensors/ HTTP/1.1" 200 229
+[13/May/2022 15:47:24] "GET /user/approval/ HTTP/1.1" 200 2
+[13/May/2022 15:47:24] "GET /user/name/ HTTP/1.1" 200 120
+[13/May/2022 15:47:24] "GET /user/name/ HTTP/1.1" 200 120
+[13/May/2022 15:47:33] "GET /admin/report/report/ HTTP/1.1" 200 3168
+[13/May/2022 15:47:33] "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+Watching for file changes with StatReloader
+[13/May/2022 15:52:51] "GET /sensor/sensors/ HTTP/1.1" 200 229
+[13/May/2022 15:52:51] "GET /user/approval/ HTTP/1.1" 200 2
+[13/May/2022 15:52:51] "GET /user/name/ HTTP/1.1" 200 120
+[13/May/2022 15:52:51] "GET /user/name/ HTTP/1.1" 200 120
+[13/May/2022 15:52:57] "OPTIONS /report/get-devices/ HTTP/1.1" 200 0
+[13/May/2022 15:52:57] "OPTIONS /report/get-devices/ HTTP/1.1" 200 0
+[13/May/2022 15:52:57] "GET /user/name/ HTTP/1.1" 200 120
+[13/May/2022 15:52:57] "GET /user/approval/ HTTP/1.1" 200 2
+[13/May/2022 15:52:57] "GET /report/get-devices/ HTTP/1.1" 200 325
+[13/May/2022 15:52:57] "GET /report/get-devices/ HTTP/1.1" 200 325
+[14/May/2022 04:08:49] "GET /report/get-devices/ HTTP/1.1" 200 6637
+[14/May/2022 04:08:49] "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 200 3597
+[14/May/2022 04:08:49] "GET /static/rest_framework/css/default.css HTTP/1.1" 200 1131
+[14/May/2022 04:08:49] "GET /static/rest_framework/css/prettify.css HTTP/1.1" 200 817
+[14/May/2022 04:08:49] "GET /static/rest_framework/js/csrf.js HTTP/1.1" 200 1735
+[14/May/2022 04:08:49] "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3385
+[14/May/2022 04:08:49] "GET /static/rest_framework/js/default.js HTTP/1.1" 200 1262
+[14/May/2022 04:08:49] "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 200 13632
+[14/May/2022 04:08:49] "GET /static/rest_framework/js/jquery-1.12.4.min.js HTTP/1.1" 200 97163
+[14/May/2022 04:08:49] "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 37045
+[14/May/2022 04:08:49] "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121200
+[14/May/2022 04:08:49] "GET /static/rest_framework/img/grid.png HTTP/1.1" 200 1458
+[14/May/2022 08:23:14] "GET /admin/report/report/ HTTP/1.1" 200 3168
+[14/May/2022 08:23:14] "GET /static/admin/css/changelists.css HTTP/1.1" 200 6170
+[14/May/2022 08:23:14] "GET /static/admin/css/base.css HTTP/1.1" 200 16378
+[14/May/2022 08:23:14] "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+[14/May/2022 08:23:14] "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[14/May/2022 08:23:14] "GET /static/admin/css/responsive.css HTTP/1.1" 200 17944
+[14/May/2022 08:23:15] "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 363
+[14/May/2022 08:23:15] "GET /static/admin/js/core.js HTTP/1.1" 200 7135
+[14/May/2022 08:23:15] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 271751
+[14/May/2022 08:23:15] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 6918
+[14/May/2022 08:23:15] "GET /static/admin/js/actions.js HTTP/1.1" 200 6538
+[14/May/2022 08:23:15] "GET /static/admin/js/urlify.js HTTP/1.1" 200 8972
+[14/May/2022 08:23:15] "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1530
+[14/May/2022 08:23:15] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 128820
+[14/May/2022 08:23:15] "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+[14/May/2022 08:23:15] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184
+[14/May/2022 08:23:15] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
+[14/May/2022 08:23:15] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 85876
+[14/May/2022 08:23:15] "OPTIONS /user/approval/ HTTP/1.1" 200 0
+[14/May/2022 08:23:15] "OPTIONS /user/name/ HTTP/1.1" 200 0
+[14/May/2022 08:23:15] "OPTIONS /report/get-devices/ HTTP/1.1" 200 0
+[14/May/2022 08:23:15] "OPTIONS /report/get-devices/ HTTP/1.1" 200 0
+[14/May/2022 08:23:15] "GET /report/get-devices/ HTTP/1.1" 200 325
+[14/May/2022 08:23:15] "GET /user/approval/ HTTP/1.1" 200 2
+[14/May/2022 08:23:15] "GET /user/name/ HTTP/1.1" 200 120
+[14/May/2022 08:23:15] "GET /report/get-devices/ HTTP/1.1" 200 325
+[14/May/2022 08:23:18] "OPTIONS /sensor/sensors/ HTTP/1.1" 200 0
+[14/May/2022 08:23:18] "GET /user/name/ HTTP/1.1" 200 120
+[14/May/2022 08:23:18] "GET /user/approval/ HTTP/1.1" 200 2
+[14/May/2022 08:23:18] "GET /sensor/sensors/ HTTP/1.1" 200 229
+[14/May/2022 08:23:18] "GET /user/name/ HTTP/1.1" 200 120
+[14/May/2022 08:32:55] "GET /user/approval/ HTTP/1.1" 200 2
+[14/May/2022 08:32:55] "GET /user/name/ HTTP/1.1" 200 120
+[14/May/2022 08:32:55] "GET /sensor/sensors/ HTTP/1.1" 200 229
+[14/May/2022 08:32:55] "GET /user/name/ HTTP/1.1" 200 120
+/code/report/views.py changed, reloading.
+Performing system checks...
+
+Checking for reports to import...
+System check identified no issues (0 silenced).
+May 13, 2022 - 15:51:15
+Django version 2.2, using settings 'config.settings.local'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+All_devices <QuerySet []>
+All_devices <QuerySet []>
+All_devices <QuerySet []>
+All_devices <QuerySet []>
+All_devices <QuerySet []>
+Watching for file changes with StatReloader
+[14/May/2022 08:39:30] "GET /user/name/ HTTP/1.1" 200 120
+[14/May/2022 08:39:30] "GET /report/get-devices/ HTTP/1.1" 200 325
+[14/May/2022 08:39:30] "GET /user/approval/ HTTP/1.1" 200 2
+[14/May/2022 08:39:30] "GET /report/get-devices/ HTTP/1.1" 200 325
+[14/May/2022 08:39:37] "GET /admin/report/report/ HTTP/1.1" 200 3168
+[14/May/2022 08:39:38] "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+[14/May/2022 08:39:38] "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[14/May/2022 08:39:38] "GET /report/get-devices/ HTTP/1.1" 200 6637
+[14/May/2022 08:39:39] "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 304 0
+[14/May/2022 08:39:39] "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 200 3597
+[14/May/2022 08:39:39] "GET /static/rest_framework/css/prettify.css HTTP/1.1" 304 0
+[14/May/2022 08:39:39] "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 304 0
+[14/May/2022 08:39:39] "GET /static/rest_framework/css/default.css HTTP/1.1" 304 0
+[14/May/2022 08:39:39] "GET /static/rest_framework/js/jquery-1.12.4.min.js HTTP/1.1" 200 97163
+[14/May/2022 08:39:39] "GET /static/rest_framework/js/csrf.js HTTP/1.1" 200 1735
+[14/May/2022 08:39:39] "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 37045
+[14/May/2022 08:39:39] "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 200 13632
+[14/May/2022 08:39:39] "GET /static/rest_framework/js/default.js HTTP/1.1" 200 1262
+[14/May/2022 08:39:39] "GET /static/rest_framework/img/grid.png HTTP/1.1" 200 1458
+[14/May/2022 08:39:41] "GET /report/get-devices/ HTTP/1.1" 200 6637
+[14/May/2022 08:39:42] "GET /report/get-devices/ HTTP/1.1" 200 6637
+Watching for file changes with StatReloader
+[14/May/2022 08:40:45] "GET /report/start-scheduler/ HTTP/1.1" 200 20
+[14/May/2022 08:40:47] "OPTIONS /auth/jwt/create/ HTTP/1.1" 200 0
+Bad Request: /auth/jwt/create/
+[14/May/2022 08:40:47] "POST /auth/jwt/create/ HTTP/1.1" 400 68
+[14/May/2022 08:40:53] "POST /auth/jwt/create/ HTTP/1.1" 200 224
+[14/May/2022 08:40:53] "GET /sensor/sensors/ HTTP/1.1" 200 229
+[14/May/2022 08:40:53] "GET /user/approval/ HTTP/1.1" 200 2
+[14/May/2022 08:40:53] "GET /user/name/ HTTP/1.1" 200 120
+[14/May/2022 08:40:53] "GET /sensor/sensors/ HTTP/1.1" 200 229
+[14/May/2022 08:40:53] "GET /user/name/ HTTP/1.1" 200 120
+[14/May/2022 08:40:59] "GET /report/get-devices/ HTTP/1.1" 200 6637
+/code/report/views.py changed, reloading.
+Performing system checks...
+
+Checking for reports to import...
+System check identified no issues (0 silenced).
+May 14, 2022 - 08:40:44
+Django version 2.2, using settings 'config.settings.local'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+scheduler has started xoxo
+All_devices <QuerySet []>
+Watching for file changes with StatReloader
+/code/report/views.py changed, reloading.
+Performing system checks...
+
+Checking for reports to import...
+System check identified no issues (0 silenced).
+May 14, 2022 - 08:42:23
+Django version 2.2, using settings 'config.settings.local'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+/code/report/views.py changed, reloading.
+Performing system checks...
+
+Checking for reports to import...
+System check identified no issues (0 silenced).
+May 14, 2022 - 08:42:27
+Django version 2.2, using settings 'config.settings.local'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+/code/report/views.py changed, reloading.
+Performing system checks...
+
+Checking for reports to import...
+Checking for reports to import...
+System check identified no issues (0 silenced).
+May 14, 2022 - 08:55:18
+Django version 2.2, using settings 'config.settings.local'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+/code/report/views.py changed, reloading.
+Performing system checks...
+
+Checking for reports to import...
+Checking for reports...
+System check identified no issues (0 silenced).
+May 14, 2022 - 08:55:59
+Django version 2.2, using settings 'config.settings.local'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+/code/report/views.py changed, reloading.
+Performing system checks...
+
+Checking for reports to import...
+Checking for reports...
+System check identified no issues (0 silenced).
+May 14, 2022 - 08:56:16
+Django version 2.2, using settings 'config.settings.local'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+Performing system checks...
+
+Checking for reports to import...
+Checking for reports...
+Traceback (most recent call last):
+  File "manage.py", line 10, in <module>
+    execute_from_command_line(sys.argv)
+  File "/usr/local/lib/python3.8/site-packages/django/core/management/__init__.py", line 381, in execute_from_command_line
+    utility.execute()
+  File "/usr/local/lib/python3.8/site-packages/django/core/management/__init__.py", line 375, in execute
+    self.fetch_command(subcommand).run_from_argv(self.argv)
+  File "/usr/local/lib/python3.8/site-packages/django/core/management/base.py", line 323, in run_from_argv
+    self.execute(*args, **cmd_options)
+  File "/usr/local/lib/python3.8/site-packages/django/core/management/commands/runserver.py", line 60, in execute
+    super().execute(*args, **options)
+  File "/usr/local/lib/python3.8/site-packages/django/core/management/base.py", line 364, in execute
+    output = self.handle(*args, **options)
+  File "/usr/local/lib/python3.8/site-packages/django/core/management/commands/runserver.py", line 95, in handle
+    self.run(**options)
+  File "/usr/local/lib/python3.8/site-packages/django/core/management/commands/runserver.py", line 102, in run
+    autoreload.run_with_reloader(self.inner_run, **options)
+  File "/usr/local/lib/python3.8/site-packages/django/utils/autoreload.py", line 579, in run_with_reloader
+    start_django(reloader, main_func, *args, **kwargs)
+  File "/usr/local/lib/python3.8/site-packages/django/utils/autoreload.py", line 564, in start_django
+    reloader.run(django_main_thread)
+  File "/usr/local/lib/python3.8/site-packages/django/utils/autoreload.py", line 272, in run
+    get_resolver().urlconf_module
+  File "/usr/local/lib/python3.8/site-packages/django/utils/functional.py", line 80, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python3.8/site-packages/django/urls/resolvers.py", line 564, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/local/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/code/config/urls.py", line 17, in <module>
+    url('report/', include('report.urls')),
+  File "/usr/local/lib/python3.8/site-packages/django/urls/conf.py", line 34, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/usr/local/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/code/report/urls.py", line 17, in <module>
+    from . import views
+  File "/code/report/views.py", line 175, in <module>
+    importReports()
+  File "/code/report/views.py", line 123, in importReports
+    for base, dirs, files in os.scandir(r'C:\Users\jamho\Desktop\DakshV2_NIPL\serve\backend\report\excel_reports'):
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\jamho\\Desktop\\DakshV2_NIPL\\serve\\backend\\report\\excel_reports'
+Watching for file changes with StatReloader
+Performing system checks...
+
+Checking for reports to import...
+Traceback (most recent call last):
+  File "manage.py", line 10, in <module>
+    execute_from_command_line(sys.argv)
+  File "/usr/local/lib/python3.8/site-packages/django/core/management/__init__.py", line 381, in execute_from_command_line
+    utility.execute()
+  File "/usr/local/lib/python3.8/site-packages/django/core/management/__init__.py", line 375, in execute
+    self.fetch_command(subcommand).run_from_argv(self.argv)
+  File "/usr/local/lib/python3.8/site-packages/django/core/management/base.py", line 323, in run_from_argv
+    self.execute(*args, **cmd_options)
+  File "/usr/local/lib/python3.8/site-packages/django/core/management/commands/runserver.py", line 60, in execute
+    super().execute(*args, **options)
+  File "/usr/local/lib/python3.8/site-packages/django/core/management/base.py", line 364, in execute
+    output = self.handle(*args, **options)
+  File "/usr/local/lib/python3.8/site-packages/django/core/management/commands/runserver.py", line 95, in handle
+    self.run(**options)
+  File "/usr/local/lib/python3.8/site-packages/django/core/management/commands/runserver.py", line 102, in run
+    autoreload.run_with_reloader(self.inner_run, **options)
+  File "/usr/local/lib/python3.8/site-packages/django/utils/autoreload.py", line 579, in run_with_reloader
+    start_django(reloader, main_func, *args, **kwargs)
+  File "/usr/local/lib/python3.8/site-packages/django/utils/autoreload.py", line 564, in start_django
+    reloader.run(django_main_thread)
+  File "/usr/local/lib/python3.8/site-packages/django/utils/autoreload.py", line 272, in run
+    get_resolver().urlconf_module
+  File "/usr/local/lib/python3.8/site-packages/django/utils/functional.py", line 80, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python3.8/site-packages/django/urls/resolvers.py", line 564, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/local/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/code/config/urls.py", line 17, in <module>
+    url('report/', include('report.urls')),
+  File "/usr/local/lib/python3.8/site-packages/django/urls/conf.py", line 34, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/usr/local/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/code/report/urls.py", line 17, in <module>
+    from . import views
+  File "/code/report/views.py", line 174, in <module>
+    importReports()
+  File "/code/report/views.py", line 122, in importReports
+    for base, dirs, files in os.scandir(r'.\backend\report\excel_reports'):
+FileNotFoundError: [Errno 2] No such file or directory: '.\\backend\\report\\excel_reports'
+Watching for file changes with StatReloader
+Performing system checks...
+
+Checking for reports to import...
+Traceback (most recent call last):
+  File "manage.py", line 10, in <module>
+    execute_from_command_line(sys.argv)
+  File "/usr/local/lib/python3.8/site-packages/django/core/management/__init__.py", line 381, in execute_from_command_line
+    utility.execute()
+  File "/usr/local/lib/python3.8/site-packages/django/core/management/__init__.py", line 375, in execute
+    self.fetch_command(subcommand).run_from_argv(self.argv)
+  File "/usr/local/lib/python3.8/site-packages/django/core/management/base.py", line 323, in run_from_argv
+    self.execute(*args, **cmd_options)
+  File "/usr/local/lib/python3.8/site-packages/django/core/management/commands/runserver.py", line 60, in execute
+    super().execute(*args, **options)
+  File "/usr/local/lib/python3.8/site-packages/django/core/management/base.py", line 364, in execute
+    output = self.handle(*args, **options)
+  File "/usr/local/lib/python3.8/site-packages/django/core/management/commands/runserver.py", line 95, in handle
+    self.run(**options)
+  File "/usr/local/lib/python3.8/site-packages/django/core/management/commands/runserver.py", line 102, in run
+    autoreload.run_with_reloader(self.inner_run, **options)
+  File "/usr/local/lib/python3.8/site-packages/django/utils/autoreload.py", line 579, in run_with_reloader
+    start_django(reloader, main_func, *args, **kwargs)
+  File "/usr/local/lib/python3.8/site-packages/django/utils/autoreload.py", line 564, in start_django
+    reloader.run(django_main_thread)
+  File "/usr/local/lib/python3.8/site-packages/django/utils/autoreload.py", line 272, in run
+    get_resolver().urlconf_module
+  File "/usr/local/lib/python3.8/site-packages/django/utils/functional.py", line 80, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python3.8/site-packages/django/urls/resolvers.py", line 564, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/local/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/code/config/urls.py", line 17, in <module>
+    url('report/', include('report.urls')),
+  File "/usr/local/lib/python3.8/site-packages/django/urls/conf.py", line 34, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/usr/local/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/code/report/urls.py", line 17, in <module>
+    from . import views
+  File "/code/report/views.py", line 174, in <module>
+    importReports()
+  File "/code/report/views.py", line 122, in importReports
+    for base, dirs, files in os.scandir(RAW_DATA_FOLDER):
+FileNotFoundError: [Errno 2] No such file or directory: '.\\report\\excel_reports'
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+Checking for reports to import...
+Watching for file changes with StatReloader
+[14/May/2022 09:27:06] "GET /report/start-scheduler/ HTTP/1.1" 200 20
+[14/May/2022 09:27:09] "GET /report/get-devices/ HTTP/1.1" 200 6637
+[14/May/2022 09:27:12] "GET /report/start-scheduler/ HTTP/1.1" 200 20
+Bad Request: /auth/jwt/create/
+[14/May/2022 09:27:14] "POST /auth/jwt/create/ HTTP/1.1" 400 68
+[14/May/2022 09:27:19] "POST /auth/jwt/create/ HTTP/1.1" 200 224
+[14/May/2022 09:27:19] "GET /sensor/sensors/ HTTP/1.1" 200 229
+[14/May/2022 09:27:19] "GET /sensor/sensors/ HTTP/1.1" 200 229
+[14/May/2022 09:27:19] "GET /user/name/ HTTP/1.1" 200 120
+[14/May/2022 09:27:19] "GET /user/approval/ HTTP/1.1" 200 2
+[14/May/2022 09:27:19] "GET /user/name/ HTTP/1.1" 200 120
+[14/May/2022 09:27:48] "GET /user/approval/ HTTP/1.1" 200 2
+[14/May/2022 09:27:48] "GET /user/name/ HTTP/1.1" 200 120
+[14/May/2022 09:27:48] "GET /report/get-devices/ HTTP/1.1" 200 325
+[14/May/2022 09:27:48] "GET /report/get-devices/ HTTP/1.1" 200 325
+[14/May/2022 09:27:58] "GET /report/get-devices/ HTTP/1.1" 200 6637
+[14/May/2022 09:27:59] "GET /report/get-devices/ HTTP/1.1" 200 6637
+[14/May/2022 09:28:00] "GET /report/get-devices/ HTTP/1.1" 200 6637
+/code/report/views.py changed, reloading.
+Performing system checks...
+
+Checking for reports to import...
+System check identified no issues (0 silenced).
+May 14, 2022 - 09:26:58
+Django version 2.2, using settings 'config.settings.local'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+scheduler has started xoxo
+All_devices <QuerySet []>
+All_devices <QuerySet []>
+All_devices <QuerySet []>
+All_devices <QuerySet []>
+All_devices <QuerySet []>
+All_devices <QuerySet []>
+Watching for file changes with StatReloader
+[14/May/2022 09:33:29] "GET /user/approval/ HTTP/1.1" 200 2
+[14/May/2022 09:33:29] "GET /user/name/ HTTP/1.1" 200 120
+[14/May/2022 09:33:29] "GET /report/get-devices/ HTTP/1.1" 200 325
+[14/May/2022 09:33:29] "GET /report/get-devices/ HTTP/1.1" 200 325
+[14/May/2022 09:33:40] "GET /report/get-devices/ HTTP/1.1" 200 6637
+/code/report/views.py changed, reloading.
+Performing system checks...
+
+Checking for reports to import...
+System check identified no issues (0 silenced).
+May 14, 2022 - 09:33:07
+Django version 2.2, using settings 'config.settings.local'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+All_devices <QuerySet []>
+All_devices <QuerySet []>
+All_devices <QuerySet []>
+Watching for file changes with StatReloader
+Performing system checks...
+
+Checking for reports to import...
+Traceback (most recent call last):
+  File "manage.py", line 10, in <module>
+    execute_from_command_line(sys.argv)
+  File "/usr/local/lib/python3.8/site-packages/django/core/management/__init__.py", line 381, in execute_from_command_line
+    utility.execute()
+  File "/usr/local/lib/python3.8/site-packages/django/core/management/__init__.py", line 375, in execute
+    self.fetch_command(subcommand).run_from_argv(self.argv)
+  File "/usr/local/lib/python3.8/site-packages/django/core/management/base.py", line 323, in run_from_argv
+    self.execute(*args, **cmd_options)
+  File "/usr/local/lib/python3.8/site-packages/django/core/management/commands/runserver.py", line 60, in execute
+    super().execute(*args, **options)
+  File "/usr/local/lib/python3.8/site-packages/django/core/management/base.py", line 364, in execute
+    output = self.handle(*args, **options)
+  File "/usr/local/lib/python3.8/site-packages/django/core/management/commands/runserver.py", line 95, in handle
+    self.run(**options)
+  File "/usr/local/lib/python3.8/site-packages/django/core/management/commands/runserver.py", line 102, in run
+    autoreload.run_with_reloader(self.inner_run, **options)
+  File "/usr/local/lib/python3.8/site-packages/django/utils/autoreload.py", line 579, in run_with_reloader
+    start_django(reloader, main_func, *args, **kwargs)
+  File "/usr/local/lib/python3.8/site-packages/django/utils/autoreload.py", line 564, in start_django
+    reloader.run(django_main_thread)
+  File "/usr/local/lib/python3.8/site-packages/django/utils/autoreload.py", line 272, in run
+    get_resolver().urlconf_module
+  File "/usr/local/lib/python3.8/site-packages/django/utils/functional.py", line 80, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python3.8/site-packages/django/urls/resolvers.py", line 564, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/local/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/code/config/urls.py", line 17, in <module>
+    url('report/', include('report.urls')),
+  File "/usr/local/lib/python3.8/site-packages/django/urls/conf.py", line 34, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/usr/local/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/code/report/urls.py", line 17, in <module>
+    from . import views
+  File "/code/report/views.py", line 174, in <module>
+    importReports()
+  File "/code/report/views.py", line 122, in importReports
+    for base, dirs, files in os.listdir(RAW_DATA_FOLDER):
+FileNotFoundError: [Errno 2] No such file or directory: '.\\report\\excel_reports'
+Watching for file changes with StatReloader
+[15/May/2022 10:54:42] "GET /report/start-scheduler/ HTTP/1.1" 200 20
+[15/May/2022 10:54:45] "OPTIONS /auth/jwt/create/ HTTP/1.1" 200 0
+Bad Request: /auth/jwt/create/
+[15/May/2022 10:54:45] "POST /auth/jwt/create/ HTTP/1.1" 400 68
+[15/May/2022 10:54:51] "POST /auth/jwt/create/ HTTP/1.1" 200 224
+[15/May/2022 10:54:51] "OPTIONS /sensor/sensors/ HTTP/1.1" 200 0
+[15/May/2022 10:54:51] "OPTIONS /user/name/ HTTP/1.1" 200 0
+[15/May/2022 10:54:51] "OPTIONS /user/approval/ HTTP/1.1" 200 0
+[15/May/2022 10:54:51] "OPTIONS /user/name/ HTTP/1.1" 200 0
+[15/May/2022 10:54:51] "OPTIONS /sensor/sensors/ HTTP/1.1" 200 0
+[15/May/2022 10:54:51] "GET /user/name/ HTTP/1.1" 200 120
+[15/May/2022 10:54:51] "GET /sensor/sensors/ HTTP/1.1" 200 229
+[15/May/2022 10:54:51] "GET /user/approval/ HTTP/1.1" 200 2
+[15/May/2022 10:54:51] "GET /user/name/ HTTP/1.1" 200 120
+[15/May/2022 10:54:51] "GET /sensor/sensors/ HTTP/1.1" 200 229
+/code/report/views.py changed, reloading.
+Performing system checks...
+
+Checking for reports to import...
+System check identified no issues (0 silenced).
+May 15, 2022 - 10:53:53
+Django version 2.2, using settings 'config.settings.local'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+scheduler has started xoxo
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+/code/report/views.py changed, reloading.
+Performing system checks...
+
+Checking for reports to import...
+System check identified no issues (0 silenced).
+May 15, 2022 - 11:17:39
+Django version 2.2, using settings 'config.settings.local'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+/code/report/views.py changed, reloading.
+Performing system checks...
+
+Checking for reports to import...
+System check identified no issues (0 silenced).
+May 15, 2022 - 11:26:36
+Django version 2.2, using settings 'config.settings.local'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+[15/May/2022 12:12:47] "GET /sensor/sensors/ HTTP/1.1" 200 229
+[15/May/2022 12:12:47] "GET /user/approval/ HTTP/1.1" 200 2
+[15/May/2022 12:12:47] "GET /user/name/ HTTP/1.1" 200 120
+[15/May/2022 12:12:47] "GET /user/name/ HTTP/1.1" 200 120
+[15/May/2022 12:14:01] "GET /report/get-devices/ HTTP/1.1" 200 6637
+[15/May/2022 12:14:01] "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 304 0
+[15/May/2022 12:14:01] "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/May/2022 12:14:01] "GET /static/rest_framework/css/default.css HTTP/1.1" 304 0
+[15/May/2022 12:14:01] "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 304 0
+[15/May/2022 12:14:01] "GET /static/rest_framework/css/prettify.css HTTP/1.1" 304 0
+[15/May/2022 12:14:01] "GET /static/rest_framework/js/jquery-1.12.4.min.js HTTP/1.1" 304 0
+[15/May/2022 12:14:01] "GET /static/rest_framework/js/csrf.js HTTP/1.1" 304 0
+[15/May/2022 12:14:01] "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/May/2022 12:14:01] "GET /static/rest_framework/js/default.js HTTP/1.1" 304 0
+[15/May/2022 12:14:01] "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 304 0
+[15/May/2022 12:14:04] "GET /static/rest_framework/img/grid.png HTTP/1.1" 304 0
+/code/report/views.py changed, reloading.
+Performing system checks...
+
+Checking for reports to import...
+System check identified no issues (0 silenced).
+May 15, 2022 - 12:12:37
+Django version 2.2, using settings 'config.settings.local'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+All_devices <QuerySet []>
+Watching for file changes with StatReloader
+Performing system checks...
+
+Checking for reports to import...
+Iterating in :  ./report/excel_reports
+Importing filepath:  ./report/excel_reports\PTI_EM3_newfile.csv
+Traceback (most recent call last):
+  File "manage.py", line 10, in <module>
+    execute_from_command_line(sys.argv)
+  File "/usr/local/lib/python3.8/site-packages/django/core/management/__init__.py", line 381, in execute_from_command_line
+    utility.execute()
+  File "/usr/local/lib/python3.8/site-packages/django/core/management/__init__.py", line 375, in execute
+    self.fetch_command(subcommand).run_from_argv(self.argv)
+  File "/usr/local/lib/python3.8/site-packages/django/core/management/base.py", line 323, in run_from_argv
+    self.execute(*args, **cmd_options)
+  File "/usr/local/lib/python3.8/site-packages/django/core/management/commands/runserver.py", line 60, in execute
+    super().execute(*args, **options)
+  File "/usr/local/lib/python3.8/site-packages/django/core/management/base.py", line 364, in execute
+    output = self.handle(*args, **options)
+  File "/usr/local/lib/python3.8/site-packages/django/core/management/commands/runserver.py", line 95, in handle
+    self.run(**options)
+  File "/usr/local/lib/python3.8/site-packages/django/core/management/commands/runserver.py", line 102, in run
+    autoreload.run_with_reloader(self.inner_run, **options)
+  File "/usr/local/lib/python3.8/site-packages/django/utils/autoreload.py", line 579, in run_with_reloader
+    start_django(reloader, main_func, *args, **kwargs)
+  File "/usr/local/lib/python3.8/site-packages/django/utils/autoreload.py", line 564, in start_django
+    reloader.run(django_main_thread)
+  File "/usr/local/lib/python3.8/site-packages/django/utils/autoreload.py", line 272, in run
+    get_resolver().urlconf_module
+  File "/usr/local/lib/python3.8/site-packages/django/utils/functional.py", line 80, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python3.8/site-packages/django/urls/resolvers.py", line 564, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/local/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/code/config/urls.py", line 17, in <module>
+    url('report/', include('report.urls')),
+  File "/usr/local/lib/python3.8/site-packages/django/urls/conf.py", line 34, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/usr/local/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/code/report/urls.py", line 17, in <module>
+    from . import views
+  File "/code/report/views.py", line 174, in <module>
+    importReports()
+  File "/code/report/views.py", line 128, in importReports
+    with open(file_path) as f:
+FileNotFoundError: [Errno 2] No such file or directory: './report/excel_reports\\PTI_EM3_newfile.csv'
+Checking for reports to import...
+Iterating in :  ./report/excel_reports
+Importing filepath:  ./report/excel_reports\PTI_EM3_newfile.csv
+Watching for file changes with StatReloader
+Performing system checks...
+
+Traceback (most recent call last):
+  File "manage.py", line 10, in <module>
+    execute_from_command_line(sys.argv)
+  File "/usr/local/lib/python3.8/site-packages/django/core/management/__init__.py", line 381, in execute_from_command_line
+    utility.execute()
+  File "/usr/local/lib/python3.8/site-packages/django/core/management/__init__.py", line 375, in execute
+    self.fetch_command(subcommand).run_from_argv(self.argv)
+  File "/usr/local/lib/python3.8/site-packages/django/core/management/base.py", line 323, in run_from_argv
+    self.execute(*args, **cmd_options)
+  File "/usr/local/lib/python3.8/site-packages/django/core/management/commands/runserver.py", line 60, in execute
+    super().execute(*args, **options)
+  File "/usr/local/lib/python3.8/site-packages/django/core/management/base.py", line 364, in execute
+    output = self.handle(*args, **options)
+  File "/usr/local/lib/python3.8/site-packages/django/core/management/commands/runserver.py", line 95, in handle
+    self.run(**options)
+  File "/usr/local/lib/python3.8/site-packages/django/core/management/commands/runserver.py", line 102, in run
+    autoreload.run_with_reloader(self.inner_run, **options)
+  File "/usr/local/lib/python3.8/site-packages/django/utils/autoreload.py", line 579, in run_with_reloader
+    start_django(reloader, main_func, *args, **kwargs)
+  File "/usr/local/lib/python3.8/site-packages/django/utils/autoreload.py", line 564, in start_django
+    reloader.run(django_main_thread)
+  File "/usr/local/lib/python3.8/site-packages/django/utils/autoreload.py", line 272, in run
+    get_resolver().urlconf_module
+  File "/usr/local/lib/python3.8/site-packages/django/utils/functional.py", line 80, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python3.8/site-packages/django/urls/resolvers.py", line 564, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/local/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/code/config/urls.py", line 17, in <module>
+    url('report/', include('report.urls')),
+  File "/usr/local/lib/python3.8/site-packages/django/urls/conf.py", line 34, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/usr/local/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/code/report/urls.py", line 17, in <module>
+    from . import views
+  File "/code/report/views.py", line 160
+    if os.path.exists('./report/excel_reports/PTI_EM3_newfile.csv'h):
+                                                                  ^
+SyntaxError: invalid syntax
+Watching for file changes with StatReloader
+/code/report/views.py changed, reloading.
+Performing system checks...
+
+Checking for reports to import...
+Iterating in :  ./report/excel_reports
+System check identified no issues (0 silenced).
+May 15, 2022 - 12:36:23
+Django version 2.2, using settings 'config.settings.local'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+[15/May/2022 12:41:05] "GET /user/name/ HTTP/1.1" 200 120
+[15/May/2022 12:41:05] "GET /sensor/sensors/ HTTP/1.1" 200 229
+[15/May/2022 12:41:05] "GET /user/approval/ HTTP/1.1" 200 2
+[15/May/2022 12:41:05] "GET /user/name/ HTTP/1.1" 200 120
+[15/May/2022 12:41:09] "GET /report/start-scheduler/ HTTP/1.1" 200 20
+Bad Request: /auth/jwt/create/
+[15/May/2022 12:41:11] "POST /auth/jwt/create/ HTTP/1.1" 400 68
+[15/May/2022 12:41:15] "POST /auth/jwt/create/ HTTP/1.1" 200 224
+[15/May/2022 12:41:15] "GET /sensor/sensors/ HTTP/1.1" 200 229
+[15/May/2022 12:41:15] "GET /user/name/ HTTP/1.1" 200 120
+[15/May/2022 12:41:15] "GET /user/approval/ HTTP/1.1" 200 2
+[15/May/2022 12:41:15] "GET /user/name/ HTTP/1.1" 200 120
+[15/May/2022 12:41:15] "GET /sensor/sensors/ HTTP/1.1" 200 229
+[15/May/2022 12:41:24] "OPTIONS /report/get-devices/ HTTP/1.1" 200 0
+[15/May/2022 12:41:24] "OPTIONS /report/get-devices/ HTTP/1.1" 200 0
+[15/May/2022 12:41:24] "GET /user/name/ HTTP/1.1" 200 120
+[15/May/2022 12:41:24] "GET /user/approval/ HTTP/1.1" 200 2
+[15/May/2022 12:41:24] "GET /report/get-devices/ HTTP/1.1" 200 330
+[15/May/2022 12:41:24] "GET /report/get-devices/ HTTP/1.1" 200 330
+[15/May/2022 12:46:08] "GET /user/name/ HTTP/1.1" 200 120
+[15/May/2022 12:46:08] "GET /user/approval/ HTTP/1.1" 200 2
+[15/May/2022 12:46:08] "GET /report/get-devices/ HTTP/1.1" 200 330
+[15/May/2022 12:46:08] "GET /report/get-devices/ HTTP/1.1" 200 330
+[15/May/2022 12:49:21] "GET /report/get-devices/ HTTP/1.1" 200 6674
+[15/May/2022 12:49:49] "GET /admin HTTP/1.1" 301 0
+[15/May/2022 12:49:49] "GET /admin/ HTTP/1.1" 200 6298
+[15/May/2022 12:49:49] "GET /static/admin/css/base.css HTTP/1.1" 304 0
+[15/May/2022 12:49:49] "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+[15/May/2022 12:49:49] "GET /static/admin/css/dashboard.css HTTP/1.1" 200 412
+[15/May/2022 12:49:49] "GET /admin/ HTTP/1.1" 200 6298
+[15/May/2022 12:49:49] "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[15/May/2022 12:49:49] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+[15/May/2022 12:49:49] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+[15/May/2022 12:49:49] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+[15/May/2022 12:49:49] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 304 0
+[15/May/2022 12:49:49] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+[15/May/2022 12:49:51] "GET /admin/report/report/ HTTP/1.1" 200 132786
+[15/May/2022 12:49:51] "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+[15/May/2022 12:49:51] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+[15/May/2022 12:49:51] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+[15/May/2022 12:49:51] "GET /static/admin/js/core.js HTTP/1.1" 304 0
+[15/May/2022 12:49:51] "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+[15/May/2022 12:49:51] "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+[15/May/2022 12:49:51] "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+[15/May/2022 12:49:51] "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+[15/May/2022 12:49:51] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+[15/May/2022 12:49:51] "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+[15/May/2022 12:49:51] "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+[15/May/2022 13:11:50] "OPTIONS /user/name/ HTTP/1.1" 200 0
+[15/May/2022 13:11:50] "OPTIONS /user/approval/ HTTP/1.1" 200 0
+[15/May/2022 13:11:51] "GET /user/approval/ HTTP/1.1" 200 2
+[15/May/2022 13:11:51] "GET /user/name/ HTTP/1.1" 200 120
+[15/May/2022 13:11:52] "OPTIONS /sensor/sensors/ HTTP/1.1" 200 0
+[15/May/2022 13:11:52] "GET /user/name/ HTTP/1.1" 200 120
+[15/May/2022 13:11:52] "GET /sensor/sensors/ HTTP/1.1" 200 229
+[15/May/2022 13:11:57] "GET /user/name/ HTTP/1.1" 200 120
+[15/May/2022 13:11:57] "GET /user/approval/ HTTP/1.1" 200 2
+[15/May/2022 13:11:57] "GET /report/get-devices/ HTTP/1.1" 200 330
+[15/May/2022 13:11:58] "GET /report/get-devices/ HTTP/1.1" 200 330
+Watching for file changes with StatReloader
+[15/May/2022 13:19:02] "OPTIONS /auth/jwt/create/ HTTP/1.1" 200 0
+[15/May/2022 13:19:02] "POST /auth/jwt/create/ HTTP/1.1" 200 224
+[15/May/2022 13:19:02] "POST /auth/jwt/create/ HTTP/1.1" 200 224
+[15/May/2022 13:19:02] "POST /auth/jwt/create/ HTTP/1.1" 200 224
+[15/May/2022 13:19:03] "GET /sensor/sensors/ HTTP/1.1" 200 229
+[15/May/2022 13:19:03] "GET /user/name/ HTTP/1.1" 200 120
+[15/May/2022 13:19:03] "GET /user/approval/ HTTP/1.1" 200 2
+[15/May/2022 13:19:03] "GET /user/name/ HTTP/1.1" 200 120
+[15/May/2022 13:19:03] "GET /sensor/sensors/ HTTP/1.1" 200 229
+[15/May/2022 13:19:03] "POST /auth/jwt/create/ HTTP/1.1" 200 224
+[15/May/2022 13:19:09] "GET /user/name/ HTTP/1.1" 200 120
+[15/May/2022 13:19:09] "GET /user/approval/ HTTP/1.1" 200 2
+[15/May/2022 13:19:09] "GET /report/get-devices/ HTTP/1.1" 200 330
+[15/May/2022 13:19:10] "GET /report/get-devices/ HTTP/1.1" 200 330
+Watching for file changes with StatReloader
+[15/May/2022 13:44:59] "GET /report/start-scheduler/ HTTP/1.1" 200 20
+Bad Request: /auth/jwt/create/
+[15/May/2022 13:45:02] "POST /auth/jwt/create/ HTTP/1.1" 400 68
+[15/May/2022 13:45:06] "POST /auth/jwt/create/ HTTP/1.1" 200 224
+[15/May/2022 13:45:07] "GET /sensor/sensors/ HTTP/1.1" 200 229
+[15/May/2022 13:45:07] "GET /user/name/ HTTP/1.1" 200 120
+[15/May/2022 13:45:07] "GET /user/approval/ HTTP/1.1" 200 2
+[15/May/2022 13:45:07] "GET /sensor/sensors/ HTTP/1.1" 200 229
+[15/May/2022 13:45:07] "GET /user/name/ HTTP/1.1" 200 120
+[15/May/2022 13:45:15] "GET /user/approval/ HTTP/1.1" 200 2
+[15/May/2022 13:45:15] "GET /user/name/ HTTP/1.1" 200 120
+[15/May/2022 13:45:15] "GET /report/get-devices/ HTTP/1.1" 200 330
+[15/May/2022 13:45:15] "GET /report/get-devices/ HTTP/1.1" 200 330
+[15/May/2022 13:46:57] "OPTIONS /report/getreport/ HTTP/1.1" 200 0
+Internal Server Error: /report/getreport/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/usr/local/lib/python3.8/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/local/lib/python3.8/site-packages/rest_framework/views.py", line 494, in dispatch
+    response = self.handle_exception(exc)
+  File "/usr/local/lib/python3.8/site-packages/rest_framework/views.py", line 454, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python3.8/site-packages/rest_framework/views.py", line 491, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/code/report/views.py", line 555, in post
+    the_table = ax.table(cellText=df_equip.values, colLabels=df_equip.columns,
+  File "/usr/local/lib/python3.8/site-packages/matplotlib/table.py", line 810, in table
+    text=colLabels[col], facecolor=colColours[col],
+IndexError: index 1 is out of bounds for axis 0 with size 1
+[15/May/2022 13:46:59] "POST /report/getreport/ HTTP/1.1" 500 14790
+Internal Server Error: /report/getreport/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/usr/local/lib/python3.8/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/local/lib/python3.8/site-packages/rest_framework/views.py", line 494, in dispatch
+    response = self.handle_exception(exc)
+  File "/usr/local/lib/python3.8/site-packages/rest_framework/views.py", line 454, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python3.8/site-packages/rest_framework/views.py", line 491, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/code/report/views.py", line 555, in post
+    the_table = ax.table(cellText=df_equip.values, colLabels=df_equip.columns,
+  File "/usr/local/lib/python3.8/site-packages/matplotlib/table.py", line 810, in table
+    text=colLabels[col], facecolor=colColours[col],
+IndexError: index 1 is out of bounds for axis 0 with size 1
+[15/May/2022 13:50:03] "POST /report/getreport/ HTTP/1.1" 500 14790
+Internal Server Error: /report/getreport/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/usr/local/lib/python3.8/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/local/lib/python3.8/site-packages/rest_framework/views.py", line 494, in dispatch
+    response = self.handle_exception(exc)
+  File "/usr/local/lib/python3.8/site-packages/rest_framework/views.py", line 454, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python3.8/site-packages/rest_framework/views.py", line 491, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/code/report/views.py", line 676, in post
+    excel_file = open('.\\Raw Data Report.csv', 'rb').read()
+FileNotFoundError: [Errno 2] No such file or directory: '.\\Raw Data Report.csv'
+[15/May/2022 13:53:09] "POST /report/getreport/ HTTP/1.1" 500 14656
+[15/May/2022 14:02:31] "GET /user/name/ HTTP/1.1" 200 120
+[15/May/2022 14:02:31] "GET /user/approval/ HTTP/1.1" 200 2
+[15/May/2022 14:02:31] "GET /sensor/sensors/ HTTP/1.1" 200 229
+[15/May/2022 14:02:31] "GET /user/name/ HTTP/1.1" 200 120
+[15/May/2022 14:03:52] "GET /report/get-devices/ HTTP/1.1" 200 6674
+[15/May/2022 14:44:07] "GET /report/get-devices/ HTTP/1.1" 200 6674
+[15/May/2022 14:44:11] "OPTIONS /report/get-devices/ HTTP/1.1" 200 0
+[15/May/2022 14:44:11] "OPTIONS /report/get-devices/ HTTP/1.1" 200 0
+[15/May/2022 14:44:11] "GET /user/name/ HTTP/1.1" 200 120
+[15/May/2022 14:44:11] "GET /user/approval/ HTTP/1.1" 200 2
+[15/May/2022 14:44:11] "GET /report/get-devices/ HTTP/1.1" 200 330
+[15/May/2022 14:44:11] "GET /report/get-devices/ HTTP/1.1" 200 330
+Watching for file changes with StatReloader
+[16/May/2022 13:01:38] "GET /admin/ HTTP/1.1" 302 0
+[16/May/2022 13:01:39] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1819
+[16/May/2022 13:01:39] "GET /static/admin/css/login.css HTTP/1.1" 200 1233
+[16/May/2022 13:01:39] "GET /static/admin/css/base.css HTTP/1.1" 200 16378
+[16/May/2022 13:01:39] "GET /static/admin/css/responsive.css HTTP/1.1" 200 17944
+[16/May/2022 13:01:39] "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[16/May/2022 13:01:39] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
+[16/May/2022 13:01:39] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 85876
+Not Found: /favicon.ico
+[16/May/2022 13:01:39] "GET /favicon.ico HTTP/1.1" 404 2971
+[16/May/2022 13:01:45] "POST /admin/login/?next=/admin/ HTTP/1.1" 200 1979
+[16/May/2022 13:01:46] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184
+[16/May/2022 13:01:50] "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[16/May/2022 13:01:51] "GET /admin/ HTTP/1.1" 200 6298
+[16/May/2022 13:01:51] "GET /static/admin/css/dashboard.css HTTP/1.1" 200 412
+[16/May/2022 13:01:51] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+[16/May/2022 13:01:51] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+[16/May/2022 13:01:58] "GET /admin/report/report/ HTTP/1.1" 200 132786
+[16/May/2022 13:01:58] "GET /static/admin/css/changelists.css HTTP/1.1" 200 6170
+[16/May/2022 13:01:58] "GET /static/admin/js/core.js HTTP/1.1" 200 7135
+[16/May/2022 13:01:58] "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 363
+[16/May/2022 13:01:58] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 6918
+[16/May/2022 13:01:58] "GET /static/admin/js/actions.js HTTP/1.1" 200 6538
+[16/May/2022 13:01:58] "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1530
+[16/May/2022 13:01:58] "GET /static/admin/js/urlify.js HTTP/1.1" 200 8972
+[16/May/2022 13:01:58] "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+[16/May/2022 13:01:58] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 128820
+[16/May/2022 13:01:58] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 271751
+[16/May/2022 13:01:58] "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+[16/May/2022 13:02:22] "OPTIONS /auth/jwt/create/ HTTP/1.1" 200 0
+Bad Request: /auth/jwt/create/
+[16/May/2022 13:02:23] "POST /auth/jwt/create/ HTTP/1.1" 400 68
+[16/May/2022 13:02:27] "POST /auth/jwt/create/ HTTP/1.1" 200 224
+[16/May/2022 13:02:28] "OPTIONS /sensor/sensors/ HTTP/1.1" 200 0
+[16/May/2022 13:02:28] "OPTIONS /user/name/ HTTP/1.1" 200 0
+[16/May/2022 13:02:28] "OPTIONS /user/name/ HTTP/1.1" 200 0
+[16/May/2022 13:02:28] "OPTIONS /user/approval/ HTTP/1.1" 200 0
+[16/May/2022 13:02:28] "OPTIONS /sensor/sensors/ HTTP/1.1" 200 0
+[16/May/2022 13:02:28] "GET /user/name/ HTTP/1.1" 200 120
+[16/May/2022 13:02:28] "GET /user/approval/ HTTP/1.1" 200 2
+[16/May/2022 13:02:28] "GET /sensor/sensors/ HTTP/1.1" 200 229
+[16/May/2022 13:02:28] "GET /user/name/ HTTP/1.1" 200 120
+[16/May/2022 13:02:28] "GET /sensor/sensors/ HTTP/1.1" 200 229
+[16/May/2022 13:02:36] "OPTIONS /report/get-devices/ HTTP/1.1" 200 0
+[16/May/2022 13:02:36] "OPTIONS /report/get-devices/ HTTP/1.1" 200 0
+[16/May/2022 13:02:36] "GET /user/name/ HTTP/1.1" 200 120
+[16/May/2022 13:02:36] "GET /user/approval/ HTTP/1.1" 200 2
+[16/May/2022 13:02:36] "GET /report/get-devices/ HTTP/1.1" 200 330
+[16/May/2022 13:02:36] "GET /report/get-devices/ HTTP/1.1" 200 330
+[16/May/2022 13:03:29] "OPTIONS /report/getreport/ HTTP/1.1" 200 0
+Internal Server Error: /report/getreport/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/usr/local/lib/python3.8/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/local/lib/python3.8/site-packages/rest_framework/views.py", line 494, in dispatch
+    response = self.handle_exception(exc)
+  File "/usr/local/lib/python3.8/site-packages/rest_framework/views.py", line 454, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python3.8/site-packages/rest_framework/views.py", line 491, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/code/report/views.py", line 676, in post
+    excel_file = open('.\\Raw Data Report.csv', 'rb').read()
+FileNotFoundError: [Errno 2] No such file or directory: '.\\Raw Data Report.csv'
+[16/May/2022 13:03:30] "POST /report/getreport/ HTTP/1.1" 500 14653
+Internal Server Error: /report/getreport/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/usr/local/lib/python3.8/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/local/lib/python3.8/site-packages/rest_framework/views.py", line 494, in dispatch
+    response = self.handle_exception(exc)
+  File "/usr/local/lib/python3.8/site-packages/rest_framework/views.py", line 454, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python3.8/site-packages/rest_framework/views.py", line 491, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/code/report/views.py", line 555, in post
+    the_table = ax.table(cellText=df_equip.values, colLabels=df_equip.columns,
+  File "/usr/local/lib/python3.8/site-packages/matplotlib/table.py", line 810, in table
+    text=colLabels[col], facecolor=colColours[col],
+IndexError: index 1 is out of bounds for axis 0 with size 1
+[16/May/2022 13:03:50] "POST /report/getreport/ HTTP/1.1" 500 14787

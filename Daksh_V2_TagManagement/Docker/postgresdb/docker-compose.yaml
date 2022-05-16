@@ -1,0 +1,42 @@
+version: '3.3'
+
+services:
+  postgres_daksh_v2_tag_management:
+    stdin_open: true
+    tty: true
+    build: .
+    image: postgres_daksh_v2_tag_management:latest
+    container_name: postgres_daksh_v2_tag_management
+    env_file:
+      - .env
+      - ../env/${DAKSH_V2_TAG_MANAGEMENT_ENV}.env
+    ports:
+      - "5436:5432"
+    volumes:
+      - postgres_daksh_v2_tag_management_volume:/var/lib/postgresql/data/pgdata
+    networks:
+      daksh_v2_tag_management:
+        ipv4_address: ${DAKSH_V2_TAG_MANAGEMENT_POSTGRES_IP}
+
+  postgres_host:
+    image: postgres_daksh_v2_tag_management:latest
+    env_file:
+      - .env
+      - ../env/${DAKSH_V2_TAG_MANAGEMENT_ENV}.env
+    container_name: postgres_daksh_v2_tag_management_host
+    entrypoint: /root/restore-dump.sh
+    volumes:
+      - .:/root/
+    networks:
+      - daksh_v2_tag_management
+    depends_on:
+      - "postgres_daksh_v2_tag_management"
+
+networks:
+  daksh_v2_tag_management:
+    external:
+      name: daksh_v2_tag_management
+
+volumes:
+  postgres_daksh_v2_tag_management_volume:
+    external: true

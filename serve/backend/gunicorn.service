@@ -1,0 +1,12 @@
+[Unit]
+Description=gunicorn daemon
+After=network.target
+
+[Service]
+User=ubuntu
+Group=www-data
+WorkingDirectory=/home/ubuntu/avl_daksh_v2/backend
+ExecStart=/home/ubuntu/avl_daksh_v2/backend/env/bin/gunicorn --access-logfile /home/ubuntu/avl_daksh_v2/backendLogs/access.log --error-logfile /home/ubuntu/avl_daksh_v2/backendLogs/error.log --workers 1 --bind 0.0.0.0:3002 config.wsgi:application
+
+[Install]
+WantedBy=multi-user.target

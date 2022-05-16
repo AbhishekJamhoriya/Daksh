@@ -1,0 +1,32 @@
+FROM python:3.8
+
+ENV DEBUG False
+
+ENV TZ Asia/Kolkata
+
+ENV POSTGRES_DB=postgres \
+    POSTGRES_USER=postgres \
+    POSTGRES_PASSWORD=postgres \
+    DB_HOST=postgres
+
+WORKDIR /code
+
+ADD ./backend /code
+
+EXPOSE 8000
+
+RUN pip3 install gunicorn pathlib
+RUN pip3 install -U pip setuptools
+RUN pip3 install --no-cache-dir -r /code/requirements/local.txt
+RUN pip3 install MarkupSafe==2.0.1
+RUN pip3 install PyMuPDF==1.16.14
+
+RUN pip3 install psycopg2 pandas flask flask_cors schedule
+
+#RUN python3 manage.py makemigrations
+
+#RUN python3 manage.py migrate
+#RUN python3 manage.py migrate --run-syncdb
+
+RUN chmod +x run.sh
+ENTRYPOINT sh ./run.sh
