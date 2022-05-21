@@ -78,7 +78,7 @@ function Report() {
       .then((data) => {
         
         const devices=[]
-        data.list[1].map((item,i)=>{
+        data.list[0].map((item,i)=>{
           devices.push({id:i+1,code:item})
           
         })

@@ -1507,3 +1507,116 @@ Traceback (most recent call last):
     text=colLabels[col], facecolor=colColours[col],
 IndexError: index 1 is out of bounds for axis 0 with size 1
 [16/May/2022 13:03:50] "POST /report/getreport/ HTTP/1.1" 500 14787
+Watching for file changes with StatReloader
+[17/May/2022 04:30:48] "OPTIONS /user/approval/ HTTP/1.1" 200 0
+[17/May/2022 04:30:48] "OPTIONS /user/name/ HTTP/1.1" 200 0
+[17/May/2022 04:30:48] "OPTIONS /sensor/sensors/ HTTP/1.1" 200 0
+[17/May/2022 04:30:48] "OPTIONS /user/name/ HTTP/1.1" 200 0
+[17/May/2022 04:30:48] "GET /user/approval/ HTTP/1.1" 200 2
+[17/May/2022 04:30:48] "GET /sensor/sensors/ HTTP/1.1" 200 229
+[17/May/2022 04:30:48] "GET /user/name/ HTTP/1.1" 200 120
+[17/May/2022 04:30:48] "GET /user/name/ HTTP/1.1" 200 120
+[17/May/2022 04:30:59] "OPTIONS /report/get-devices/ HTTP/1.1" 200 0
+[17/May/2022 04:30:59] "OPTIONS /report/get-devices/ HTTP/1.1" 200 0
+[17/May/2022 04:30:59] "GET /user/name/ HTTP/1.1" 200 120
+[17/May/2022 04:30:59] "GET /user/approval/ HTTP/1.1" 200 2
+[17/May/2022 04:30:59] "GET /report/get-devices/ HTTP/1.1" 200 330
+[17/May/2022 04:30:59] "GET /report/get-devices/ HTTP/1.1" 200 330
+Watching for file changes with StatReloader
+[17/May/2022 05:03:13] "GET /user/approval/ HTTP/1.1" 200 2
+[17/May/2022 05:03:13] "GET /sensor/sensors/ HTTP/1.1" 200 229
+[17/May/2022 05:03:13] "GET /user/name/ HTTP/1.1" 200 120
+[17/May/2022 05:03:13] "GET /user/name/ HTTP/1.1" 200 120
+/code/report/views.py changed, reloading.
+Performing system checks...
+
+Checking for reports to import...
+System check identified no issues (0 silenced).
+May 17, 2022 - 04:46:45
+Django version 2.2, using settings 'config.settings.local'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+[17/May/2022 05:10:28] "GET /user/name/ HTTP/1.1" 200 120
+[17/May/2022 05:10:28] "GET /user/approval/ HTTP/1.1" 200 2
+[17/May/2022 05:10:28] "GET /report/get-devices/ HTTP/1.1" 200 330
+[17/May/2022 05:10:28] "GET /report/get-devices/ HTTP/1.1" 200 330
+[17/May/2022 05:11:06] "GET /user/name/ HTTP/1.1" 200 120
+[17/May/2022 05:11:06] "GET /user/approval/ HTTP/1.1" 200 2
+[17/May/2022 05:11:06] "GET /report/get-devices/ HTTP/1.1" 200 330
+[17/May/2022 05:11:06] "GET /report/get-devices/ HTTP/1.1" 200 330
+[17/May/2022 05:11:12] "GET /report/start-scheduler/ HTTP/1.1" 200 20
+[17/May/2022 05:11:14] "OPTIONS /auth/jwt/create/ HTTP/1.1" 200 0
+Bad Request: /auth/jwt/create/
+[17/May/2022 05:11:14] "POST /auth/jwt/create/ HTTP/1.1" 400 68
+Bad Request: /auth/jwt/create/
+[17/May/2022 05:11:20] "POST /auth/jwt/create/ HTTP/1.1" 400 68
+Bad Request: /auth/jwt/create/
+[17/May/2022 05:11:26] "POST /auth/jwt/create/ HTTP/1.1" 400 68
+Bad Request: /auth/jwt/create/
+[17/May/2022 05:11:31] "POST /auth/jwt/create/ HTTP/1.1" 400 68
+[17/May/2022 05:11:36] "POST /auth/jwt/create/ HTTP/1.1" 200 224
+[17/May/2022 05:11:37] "GET /sensor/sensors/ HTTP/1.1" 200 229
+[17/May/2022 05:11:37] "GET /user/name/ HTTP/1.1" 200 120
+[17/May/2022 05:11:37] "GET /user/approval/ HTTP/1.1" 200 2
+[17/May/2022 05:11:37] "GET /sensor/sensors/ HTTP/1.1" 200 229
+[17/May/2022 05:11:37] "GET /user/name/ HTTP/1.1" 200 120
+[17/May/2022 05:11:45] "GET /user/approval/ HTTP/1.1" 200 2
+[17/May/2022 05:11:45] "GET /user/name/ HTTP/1.1" 200 120
+[17/May/2022 05:11:45] "GET /report/get-devices/ HTTP/1.1" 200 330
+[17/May/2022 05:11:45] "GET /report/get-devices/ HTTP/1.1" 200 330
+Watching for file changes with StatReloader
+[17/May/2022 05:16:59] "GET /user/approval/ HTTP/1.1" 200 2
+[17/May/2022 05:16:59] "GET /sensor/sensors/ HTTP/1.1" 200 229
+[17/May/2022 05:16:59] "GET /user/name/ HTTP/1.1" 200 120
+[17/May/2022 05:16:59] "GET /user/name/ HTTP/1.1" 200 120
+[17/May/2022 05:17:06] "GET /report/start-scheduler/ HTTP/1.1" 200 20
+Bad Request: /auth/jwt/create/
+[17/May/2022 05:17:08] "POST /auth/jwt/create/ HTTP/1.1" 400 68
+[17/May/2022 05:17:12] "POST /auth/jwt/create/ HTTP/1.1" 200 224
+[17/May/2022 05:17:12] "GET /sensor/sensors/ HTTP/1.1" 200 229
+[17/May/2022 05:17:12] "GET /user/name/ HTTP/1.1" 200 120
+[17/May/2022 05:17:12] "GET /user/approval/ HTTP/1.1" 200 2
+[17/May/2022 05:17:12] "GET /sensor/sensors/ HTTP/1.1" 200 229
+[17/May/2022 05:17:12] "GET /user/name/ HTTP/1.1" 200 120
+[17/May/2022 05:17:22] "GET /user/approval/ HTTP/1.1" 200 2
+[17/May/2022 05:17:22] "GET /user/name/ HTTP/1.1" 200 120
+[17/May/2022 05:17:22] "GET /report/get-devices/ HTTP/1.1" 200 330
+[17/May/2022 05:17:22] "GET /report/get-devices/ HTTP/1.1" 200 330
+Watching for file changes with StatReloader
+[17/May/2022 06:22:53] "GET /user/name/ HTTP/1.1" 200 120
+[17/May/2022 06:22:53] "GET /user/approval/ HTTP/1.1" 200 2
+[17/May/2022 06:22:53] "GET /sensor/sensors/ HTTP/1.1" 200 229
+[17/May/2022 06:22:53] "GET /user/name/ HTTP/1.1" 200 120
+[17/May/2022 06:22:57] "GET /user/name/ HTTP/1.1" 200 120
+[17/May/2022 06:22:57] "GET /user/approval/ HTTP/1.1" 200 2
+[17/May/2022 06:22:57] "GET /report/get-devices/ HTTP/1.1" 200 330
+[17/May/2022 06:22:57] "GET /report/get-devices/ HTTP/1.1" 200 330
+[17/May/2022 06:23:17] "GET /admin/ HTTP/1.1" 200 6298
+[17/May/2022 06:23:17] "GET /static/admin/css/dashboard.css HTTP/1.1" 200 412
+[17/May/2022 06:23:17] "GET /static/admin/css/base.css HTTP/1.1" 200 16378
+[17/May/2022 06:23:17] "GET /static/admin/css/responsive.css HTTP/1.1" 200 17944
+[17/May/2022 06:23:18] "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[17/May/2022 06:23:18] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+[17/May/2022 06:23:18] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+[17/May/2022 06:23:18] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 85876
+[17/May/2022 06:23:18] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184
+[17/May/2022 06:23:18] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
+Not Found: /favicon.ico
+[17/May/2022 06:23:18] "GET /favicon.ico HTTP/1.1" 404 2971
+[17/May/2022 06:23:21] "GET /admin/report/report/ HTTP/1.1" 200 132786
+[17/May/2022 06:23:21] "GET /static/admin/css/changelists.css HTTP/1.1" 200 6170
+[17/May/2022 06:23:21] "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 363
+[17/May/2022 06:23:21] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 6918
+[17/May/2022 06:23:21] "GET /static/admin/js/core.js HTTP/1.1" 200 7135
+[17/May/2022 06:23:21] "GET /static/admin/js/urlify.js HTTP/1.1" 200 8972
+[17/May/2022 06:23:21] "GET /static/admin/js/actions.js HTTP/1.1" 200 6538
+[17/May/2022 06:23:21] "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1530
+[17/May/2022 06:23:21] "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+[17/May/2022 06:23:21] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 271751
+[17/May/2022 06:23:21] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 128820
+[17/May/2022 06:23:21] "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+[17/May/2022 06:24:00] "OPTIONS /report/getreport/ HTTP/1.1" 200 0
+[17/May/2022 06:24:00] "POST /report/getreport/ HTTP/1.1" 200 40652
+[17/May/2022 06:24:16] "POST /report/getreport/ HTTP/1.1" 200 2362
+[17/May/2022 06:24:27] "POST /report/getreport/ HTTP/1.1" 200 52234

@@ -158,8 +158,8 @@ def importReports():
                         )
 
             if os.path.exists(file_path):
-                destination_path = ".\\report\\archived_reports"
-                if(file_path != ".\\report\\excel_reports\\sample_file.txt"):
+                destination_path = "./report/archived_reports"
+                if(file_path != "./report/excel_reports/sample_file.txt"):
                     new_location = shutil.move(file_path, destination_path)
                     print("The %s moved to the location %s" %
                         (file_path, new_location))
@@ -285,7 +285,7 @@ def generateHistoricalReport(start_date_time_min, end_date_time_min, device_chan
     df_nodata = pd.DataFrame(nodata)
 
     #create a new directory
-    new_temp_folder = f".\\temp_graphs\\{current_time}\\"
+    new_temp_folder = f"./temp_graphs/{current_time}/"
     if not os.path.exists(new_temp_folder):
         os.mkdir(new_temp_folder)
         print("Directory " , new_temp_folder ,  " Created ")
@@ -364,7 +364,7 @@ def generateHistoricalReport(start_date_time_min, end_date_time_min, device_chan
                 plt.rcParams.update({'font.size': 8})
                 plt.subplots_adjust(top=0.88, bottom=0.20)
                 device_chanel_str = selected_channel + "_" + selected_device
-                plt.savefig(f'.\\temp_graphs\\{current_time}\\{device_chanel_str}.pdf')
+                plt.savefig(f'./temp_graphs/{current_time}/{device_chanel_str}.pdf')
                 device_channel_names.append(device_chanel_str)
                 plt.cla()
                 plt.clf()
@@ -579,7 +579,7 @@ class PostReport(APIView):
             pp.close()
 
             global current_time
-            TEMP_GRAPHS_FOLDER = ".\\temp_graphs\\" + current_time + "\\"
+            TEMP_GRAPHS_FOLDER = "./temp_graphs/" + current_time + "/"
 
             listofdirs = os.listdir(TEMP_GRAPHS_FOLDER)
 
@@ -590,7 +590,7 @@ class PostReport(APIView):
             # print(x)
 
             for pdf in x:
-                graphfile_path = ".\\temp_graphs\\{}\\".format(current_time) 
+                graphfile_path = "./temp_graphs/{}/".format(current_time) 
                 graphfile_path = graphfile_path + pdf
                 merger.append(open(graphfile_path, 'rb'))
 
@@ -601,9 +601,9 @@ class PostReport(APIView):
 
             # append the PDFs - historical_data_table and all_graphs
             output = PdfFileWriter()
-            pdfOne = PdfFileReader(open(r'.\historical_data_table.pdf', "rb"))
+            pdfOne = PdfFileReader(open('./historical_data_table.pdf', "rb"))
             pdfOnePages = pdfOne.numPages
-            pdfTwo = PdfFileReader(open(r'.\all_graphs.pdf', "rb"))
+            pdfTwo = PdfFileReader(open('./all_graphs.pdf', "rb"))
             pdfTwoPages = pdfTwo.numPages
 
             for i in range(pdfOnePages):
@@ -617,9 +617,9 @@ class PostReport(APIView):
 
             # append the PDFs - historical_equipments_table and historical_report_temp_merged
             output = PdfFileWriter()
-            pdf1 = PdfFileReader(open(r'.\historical_equipments_table.pdf', "rb"))
+            pdf1 = PdfFileReader(open('./historical_equipments_table.pdf', "rb"))
             pdf1Pages = pdf1.numPages
-            pdf2 = PdfFileReader(open(r'.\historical_report_temp_merged.pdf', "rb"))
+            pdf2 = PdfFileReader(open('./historical_report_temp_merged.pdf', "rb"))
             pdf2Pages = pdf2.numPages
 
             for i in range(pdf1Pages):
@@ -627,12 +627,12 @@ class PostReport(APIView):
             for i in range(pdf2Pages):
                 output.addPage(pdf2.getPage(i))
 
-            outputStream = open(r"historical_report_temp_final.pdf", "wb")
+            outputStream = open("historical_report_temp_final.pdf", "wb")
             output.write(outputStream)
             outputStream.close()
 
             # set all the pages to A4
-            src = fitz.open(r"historical_report_temp_final.pdf")  # problem PDF
+            src = fitz.open("historical_report_temp_final.pdf")  # problem PDF
             doc = fitz.open()
             for ipage in src:
                 if ipage.rect.width > ipage.rect.height:
@@ -665,22 +665,22 @@ class PostReport(APIView):
             xlworksheet =xlwriter.sheets['Sheet1']
             xlworksheet.set_column('B:B', 15)
             xlworksheet.set_column('C:C', 25)
-            xlworksheet.insert_image('A1', '.\\report\\header.PNG', {'x_scale': 0.305, 'y_scale': 0.45})
+            xlworksheet.insert_image('A1', './report/header.PNG', {'x_scale': 0.305, 'y_scale': 0.45})
             xlworkbook.close()
-            excel_file=open('.\\report.xlsx','rb').read()
+            excel_file=open('./report.xlsx','rb').read()
             response = HttpResponse(excel_file, content_type='application/vnd.openxmlformats-officedocument.spreadsheetml.sheet')
             response['Content-Disposition'] = 'attachment; filename=Report.xlsx'
             return response
 
         elif(report_type == "rawData"):
-            excel_file = open('.\\Raw Data Report.csv', 'rb').read()
+            excel_file = open('./Raw Data Report.csv', 'rb').read()
             response = HttpResponse(
                 excel_file, content_type='application/vnd.openxmlformats-officedocument.spreadsheetml.sheet')
             response['Content-Disposition'] = 'attachment; filename=Report.csv'
             return response
 
         else:
-            excel_file = open('.\\historical_report_temp.pdf', 'rb').read()
+            excel_file = open('./historical_report_temp.pdf', 'rb').read()
             response = HttpResponse(
                 excel_file, content_type='application/vnd.openxmlformats-officedocument.spreadsheetml.sheet')
             response['Content-Disposition'] = 'attachment; filename=Report.pdf'
@@ -1012,7 +1012,7 @@ def set_mail(report_type, start_date_time_min, end_date_time_min, selected_rows_
         plt.close(fig)
         pp.close()
 
-        TEMP_GRAPHS_FOLDER = r'.\temp_graphs'
+        TEMP_GRAPHS_FOLDER = './temp_graphs'
 
         x = [a for a in os.listdir(
             TEMP_GRAPHS_FOLDER) if a.endswith(".pdf")]
@@ -1021,7 +1021,7 @@ def set_mail(report_type, start_date_time_min, end_date_time_min, selected_rows_
         # print(x)
 
         for pdf in x:
-            graphfile_path = r'.\\temp_graphs\\' + pdf
+            graphfile_path = './temp_graphs/' + pdf
             merger.append(open(graphfile_path, 'rb'))
 
         with open("all_graphs.pdf", "wb") as fout:
@@ -1031,9 +1031,9 @@ def set_mail(report_type, start_date_time_min, end_date_time_min, selected_rows_
 
         # append the PDFs - historical_data_table and all_graphs
         output = PdfFileWriter()
-        pdfOne = PdfFileReader(open(r'.\historical_data_table.pdf', "rb"))
+        pdfOne = PdfFileReader(open('./historical_data_table.pdf', "rb"))
         pdfOnePages = pdfOne.numPages
-        pdfTwo = PdfFileReader(open(r'.\all_graphs.pdf', "rb"))
+        pdfTwo = PdfFileReader(open('./all_graphs.pdf', "rb"))
         pdfTwoPages = pdfTwo.numPages
 
         for i in range(pdfOnePages):
@@ -1041,15 +1041,15 @@ def set_mail(report_type, start_date_time_min, end_date_time_min, selected_rows_
         for i in range(pdfTwoPages):
             output.addPage(pdfTwo.getPage(i))
 
-        outputStream = open(r"historical_report_temp_merged.pdf", "wb")
+        outputStream = open("historical_report_temp_merged.pdf", "wb")
         output.write(outputStream)
         outputStream.close()
 
         # append the PDFs - historical_equipments_table and historical_report_temp_merged
         output = PdfFileWriter()
-        pdf1 = PdfFileReader(open(r'.\historical_equipments_table.pdf', "rb"))
+        pdf1 = PdfFileReader(open('./historical_equipments_table.pdf', "rb"))
         pdf1Pages = pdf1.numPages
-        pdf2 = PdfFileReader(open(r'.\historical_report_temp_merged.pdf', "rb"))
+        pdf2 = PdfFileReader(open('./historical_report_temp_merged.pdf', "rb"))
         pdf2Pages = pdf2.numPages
 
         for i in range(pdf1Pages):
@@ -1057,12 +1057,12 @@ def set_mail(report_type, start_date_time_min, end_date_time_min, selected_rows_
         for i in range(pdf2Pages):
             output.addPage(pdf2.getPage(i))
 
-        outputStream = open(r"historical_report_temp_final.pdf", "wb")
+        outputStream = open("historical_report_temp_final.pdf", "wb")
         output.write(outputStream)
         outputStream.close()
 
         # set all the pages to A4
-        src = fitz.open(r"historical_report_temp_final.pdf")  # problem PDF
+        src = fitz.open("historical_report_temp_final.pdf")  # problem PDF
         doc = fitz.open()
         for ipage in src:
             if ipage.rect.width > ipage.rect.height:
